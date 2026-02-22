@@ -23,6 +23,15 @@ Coupled with a mobile-responsive Command and Control (C2) dashboard, admins get 
 * **⚡ Crash-Proof IPC Architecture:** Engineered using atomic JSON file writes and file-based Inter-Process Communication (IPC). The C2 server and Watchdog daemon communicate safely without overloading the Linux D-Bus or crashing desktop environments like GDM3.
 * **📱 Mobile C2 Dashboard:** A sleek Flask web UI that serves live CPU/RAM telemetry, active AI reasoning logs, and a remote "Lockdown" trigger over secure tunnels.
 * **☁️ Enterprise-Grade Security & Sync:** Uses AWS IAM Identity Center (SSO) for zero-hardcoded-credentials authentication, syncing cryptographic audit trails of all AI actions directly to AWS CloudWatch.
+## 🧰 Advanced CLI Capabilities
+
+Beyond the autonomous loop, StackSentinel includes a robust suite of command-line tools for advanced system administration:
+
+* **🛑 The AI "Circuit Breaker":** Features a systemic recurrence checker (`is_system_looping`). If a fix fails and the system enters an infinite error loop, the Watchdog cuts execution and halts the AI to prevent system degradation.
+* **🗣️ Auditory Threat Announcements:** Integrates a local TTS engine to provide audible alerts when lockdowns are triggered or when the agent applies automated fixes.
+* **📸 Snapshots & Rollbacks:** Built-in state management using `--snapshot` and `--restore` flags, allowing admins to instantly revert file states if an experimental configuration fails.
+* **🛡️ Configuration Drift Auditing:** Utilizing the `--set-baseline` and `--audit` commands, the agent can map the current system state and detect unauthorized configuration drift over time.
+* **🎓 Professor & Gym Mode:** Using the `--learn` or `--gym` flags, junior DevOps engineers can enter an interactive training simulator to practice diagnosing real log errors against the AI's reasoning.
 
 ## ⚙️ The Autonomous Healing Loop
 
