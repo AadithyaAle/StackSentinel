@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.png
+venv/
+__pycache__/
+*.pyc
+.env
+monitor_status.json
+*.tmp
+lockdown.mode
+system_log.txt
+aws/
+*.zip

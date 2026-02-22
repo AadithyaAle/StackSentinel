@@ -1,0 +1,15 @@
+{
+    "mode": "intended",
+    "enable_desktop_notifications": true,
+    "whitelist": [
+        "python3",
+        "bash",
+        "systemd",
+        "init",
+        "gnome-shell",
+        "code",
+        "chrome",
+        "firefox"
+    ],
+    "discord_webhook_url": "PASTE_YOUR_DISCORD_WEBHOOK_URL_HERE"
+}

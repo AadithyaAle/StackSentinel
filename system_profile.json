@@ -1,0 +1,14 @@
+{
+    "user_role": "Developer",
+    "chronic_issues": [
+        "OVERHEAT"
+    ],
+    "system_specs": {
+        "system": "Linux",
+        "node": "ale-aadithya-Dell-G15-5530",
+        "release": "6.14.0-35-generic",
+        "version": "#35-Ubuntu SMP PREEMPT_DYNAMIC Sat Oct 11 10:06:31 UTC 2025",
+        "machine": "x86_64",
+        "processor": ""
+    }
+}

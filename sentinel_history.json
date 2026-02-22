@@ -1,0 +1,1022 @@
+[
+    {
+        "timestamp": "2026-02-17 19:31:38",
+        "problem": "AFK: [2026-02-17 19:31:36] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "I detected a generic system error based on the logs. \n\n**Suggested Fix:**\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-17 19:40:55",
+        "problem": "AFK: [2026-02-17 19:40:52] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "I detected a generic system error based on the logs. \n\n**Suggested Fix:**\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-17 19:45:42",
+        "problem": "AFK: [2026-02-17 19:45:40] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "It seems your WiFi interface is down.\n\n**Suggested Fix:**\n```bash\nsudo nmcli radio wifi off && sudo nmcli radio wifi on\n```",
+        "proposed_fix": "sudo nmcli radio wifi off && sudo nmcli radio wifi on",
+        "backup_command": null,
+        "auditor_verdict": "BLOCKED",
+        "final_status": "BLOCKED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:01:23",
+        "problem": "AFK: [2026-02-22 00:01:20] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:01:30",
+        "problem": "AFK: [2026-02-22 00:01:27] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:01:41",
+        "problem": "AFK: [2026-02-22 00:01:37] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:01:51",
+        "problem": "AFK: [2026-02-22 00:01:47] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:01:58",
+        "problem": "AFK: [2026-02-22 00:01:54] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:02:04",
+        "problem": "AFK: [2026-02-22 00:02:00] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:02:10",
+        "problem": "AFK: [2026-02-22 00:02:06] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:02:18",
+        "problem": "AFK: [2026-02-22 00:02:14] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:02:28",
+        "problem": "AFK: [2026-02-22 00:02:24] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:02:36",
+        "problem": "AFK: [2026-02-22 00:02:33] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "Offline Diagnosis: WiFi interface down.\n\nFix:\n```bash\nsudo nmcli radio wifi on\n```",
+        "proposed_fix": "sudo nmcli radio wifi on",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:02:43",
+        "problem": "AFK: [2026-02-22 00:02:39] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:02:52",
+        "problem": "AFK: [2026-02-22 00:02:48] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:03:02",
+        "problem": "AFK: [2026-02-22 00:02:58] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:03:08",
+        "problem": "AFK: [2026-02-22 00:03:03] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:03:15",
+        "problem": "AFK: [2026-02-22 00:03:11] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:03:21",
+        "problem": "AFK: [2026-02-22 00:03:17] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:03:29",
+        "problem": "AFK: [2026-02-22 00:03:25] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "Offline Diagnosis: WiFi interface down.\n\nFix:\n```bash\nsudo nmcli radio wifi on\n```",
+        "proposed_fix": "sudo nmcli radio wifi on",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:03:39",
+        "problem": "AFK: [2026-02-22 00:03:35] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:05:47",
+        "problem": "AFK: [2026-02-22 00:05:38] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:05:58",
+        "problem": "AFK: [2026-02-22 00:05:44] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:06:09",
+        "problem": "AFK: [2026-02-22 00:05:50] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "Offline Diagnosis: WiFi interface down.\n\nFix:\n```bash\nsudo nmcli radio wifi on\n```",
+        "proposed_fix": "sudo nmcli radio wifi on",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:06:20",
+        "problem": "AFK: [2026-02-22 00:06:00] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:06:31",
+        "problem": "AFK: [2026-02-22 00:06:06] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "Offline Diagnosis: WiFi interface down.\n\nFix:\n```bash\nsudo nmcli radio wifi on\n```",
+        "proposed_fix": "sudo nmcli radio wifi on",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:06:42",
+        "problem": "AFK: [2026-02-22 00:06:16] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:06:54",
+        "problem": "AFK: [2026-02-22 00:06:23] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:07:05",
+        "problem": "AFK: [2026-02-22 00:06:29] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "Offline Diagnosis: WiFi interface down.\n\nFix:\n```bash\nsudo nmcli radio wifi on\n```",
+        "proposed_fix": "sudo nmcli radio wifi on",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:07:16",
+        "problem": "AFK: [2026-02-22 00:06:37] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:07:27",
+        "problem": "AFK: [2026-02-22 00:06:42] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:07:38",
+        "problem": "AFK: [2026-02-22 00:06:47] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "Offline Diagnosis: Generic error.\n\nFix:\n```bash\necho 'System Diagnostic Complete'\n```",
+        "proposed_fix": "echo 'System Diagnostic Complete'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:18:16",
+        "problem": "AFK: [2026-02-22 00:18:05] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "### Analysis:\nThe error message indicates a Kernel Panic due to a Memory Segment Violation at address `0x004F`. This type of error often results from issues such as faulty hardware (e.g., RAM), driver problems, or software bugs.\n\n### Explanation:\nA Memory Segment Violation typically means that the kernel attempted to access a memory location that it is not allowed to access, which can be caused by faulty hardware or software bugs. This can lead to a Kernel Panic, where the operating system becomes unstable and halts to prevent further damage.\n\n### BASH Command to Fix:\nTo diagnose and potentially fix this issue, you can run a memory test to check for faulty RAM.\n\n```bash\n# Run a memory test using memtest86+\nsudo apt-get update\nsudo apt-get install -y memtest86+\nsudo memtest86+\n```\n\n### Backup Command:\nIf running a memory test doesn't resolve the issue or is not feasible, you can try booting into a previous kernel version as a temporary measure.\n\n**Backup Command:**\n\n```bash\n# Boot into a previous kernel version\nsudo apt-get update\nsudo apt-get install -y grub-customizer\nsudo grub-customizer\n# In the grub-customizer interface, change the default boot entry to a previous kernel version and save.\n```\n\nNote: Ensure you have another system available to search for and download the appropriate kernel version if needed.",
+        "proposed_fix": "# Run a memory test using memtest86+\nsudo apt-get update\nsudo apt-get install -y memtest86+\nsudo memtest86+",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:18:29",
+        "problem": "AFK: [2026-02-22 00:18:13] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\n# The error message indicates that there is a mismatch between the NVIDIA driver version (535) and the kernel module version (525). This can cause instability and issues with using the GPU.\n\n# BRIEF explanation\n# The mismatch between the driver and the kernel module can cause the system to be unable to properly communicate with the GPU. This needs to be resolved to ensure proper functionality.\n\n# BASH COMMAND to fix it\nbash\nsudo apt-get update\nsudo apt-get install --only-upgrade nvidia-driver-535\nsudo reboot\n\n# Backup Command:\n**Backup Command:**\n```bash\nsudo apt-get update\nsudo apt-get install --only-upgrade nvidia-driver-525\nsudo reboot\n```",
+        "proposed_fix": "# Analyze the error\n# The error message indicates that there is a mismatch between the NVIDIA driver version (535) and the kernel module version (525). This can cause instability and issues with using the GPU.\n\n# BRIEF explanation\n# The mismatch between the driver and the kernel module can cause the system to be unable to properly communicate with the GPU. This needs to be resolved to ensure proper functionality.\n\n# BASH COMMAND to fix it\nbash\nsudo apt-get update\nsudo apt-get install --only-upgrade nvidia-driver-535\nsudo reboot\n\n# Backup Command:\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:18:42",
+        "problem": "AFK: [2026-02-22 00:18:21] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "### Analysis\nThe system is experiencing thermal throttling because the CPU temperature has exceeded 95\u00b0C, which is a critical threshold. This can lead to reduced performance and potential damage to the CPU if not addressed.\n\n### Explanation\nThermal throttling occurs when the CPU temperature rises above a safe operating limit, causing the system to reduce the CPU's clock speed to cool it down. This can be caused by inadequate cooling, high system load, or a malfunctioning cooling system.\n\n### Fix Command\n```bash\nsudo apt update && sudo apt install lm-sensors -y\nsudo sensors-detect\nsudo service thermald stop\necho \"options ibverbs mdev_blacklist=1\" | sudo tee /etc/modprobe.d/ibverbs.conf\nsudo reboot\n```\n\n### Backup Command\n**Backup Command:**\n```bash\nsudo apt update && sudo apt install lm-sensors -y\nsudo sensors-detect\necho \"options ibverbs mdev_blacklist=1\" | sudo tee /etc/modprobe.d/ibverbs.conf\nsudo service thermald stop\n```",
+        "proposed_fix": "sudo apt update && sudo apt install lm-sensors -y\nsudo sensors-detect\necho \"options ibverbs mdev_blacklist=1\" | sudo tee /etc/modprobe.d/ibverbs.conf\nsudo service thermald stop",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:18:56",
+        "problem": "AFK: [2026-02-22 00:18:27] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "### Analysis:\nThe error message indicates a \"Kernel Panic - Memory Segment Violation,\" which suggests that a process attempted to access a memory segment that it should not have. This can be caused by a variety of issues, such as faulty hardware, buggy drivers, or corrupted memory.\n\n### Explanation:\nA memory segment violation often points to a serious issue where the kernel has detected an attempt to access memory that is not permitted. This can lead to system instability and potentially corrupt data.\n\n### BASH Command to Fix:\nTo diagnose and potentially fix this issue, we need to check the system logs and ensure there are no memory leaks or faulty drivers.\n\n```bash\n# Check dmesg logs for more information on the kernel panic\ndmesg | grep -i \"error\"\n\n# Check for memory issues using memtest86+\necho \"Running memory test...\"\nsudo memtest86+  # This will reboot your system and run a memory test\n\n# Update the system to ensure all drivers and kernel components are up-to-date\nsudo apt update && sudo apt upgrade -y\n```\n\n### Backup Command:\n**Backup Command:**\n\n```bash\n# Backup important data before running a memory test or upgrade\necho \"Backing up important data...\"\nmkdir -p ~/backup/$(date +%F)\nrsync -av --progress /path/to/important/data ~/backup/$(date +%F)/\n```\n\nEnsure to replace `/path/to/important/data` with the actual path to the data you want to back up. This command will create a backup directory with the current date and copy important data into it.",
+        "proposed_fix": "# Check dmesg logs for more information on the kernel panic\ndmesg | grep -i \"error\"\n\n# Check for memory issues using memtest86+\necho \"Running memory test...\"\nsudo memtest86+  # This will reboot your system and run a memory test\n\n# Update the system to ensure all drivers and kernel components are up-to-date\nsudo apt update && sudo apt upgrade -y",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:19:09",
+        "problem": "AFK: [2026-02-22 00:18:37] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\n# The error message indicates that there is a mismatch between the NVIDIA driver version (535) and the kernel module version (525).\n\n# Step 2: Brief explanation\n# The mismatch between the driver and the kernel module can cause instability or failure in utilizing the GPU. It is essential to have both components at compatible versions.\n\n# Step 3: Provide a BASH command to fix it\n# To fix the API mismatch, we need to either update the driver to match the kernel module or update the kernel module to match the driver.\n\n# Update the driver to match the kernel module version\nsudo apt update && sudo apt upgrade -y\nsudo apt install nvidia-driver-525 -y\n\n# Step 4: If risky, provide a backup command\n**Backup Command:**\n```bash\n# If updating the driver causes issues, you can revert to the previous driver version\nsudo apt install nvidia-driver-520 -y\n```",
+        "proposed_fix": "# Step 1: Analyze the error\n# The error message indicates that there is a mismatch between the NVIDIA driver version (535) and the kernel module version (525).\n\n# Step 2: Brief explanation\n# The mismatch between the driver and the kernel module can cause instability or failure in utilizing the GPU. It is essential to have both components at compatible versions.\n\n# Step 3: Provide a BASH command to fix it\n# To fix the API mismatch, we need to either update the driver to match the kernel module or update the kernel module to match the driver.\n\n# Update the driver to match the kernel module version\nsudo apt update && sudo apt upgrade -y\nsudo apt install nvidia-driver-525 -y\n\n# Step 4: If risky, provide a backup command\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:19:22",
+        "problem": "AFK: [2026-02-22 00:18:44] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "```bash\n# Analysis:\n# The error indicates that the WiFi adapter (wifi_adapter_0) is not reachable. This could be due to a variety of reasons such as driver issues, hardware problems, or misconfigurations.\n\n# Explanation:\n# The WiFi adapter is not responding to commands, which could be due to the driver not being loaded, a hardware issue, or a configuration problem.\n\n# Fix:\n# We will attempt to reload the WiFi driver to see if it resolves the issue.\n\nbash\nCopied!\nsudo modprobe -r <wifi_driver_name>\nsudo modprobe <wifi_driver_name>\n\n\n# Backup Command:\n# If the above command does not work, we can try restarting the network service.\n\n**Backup Command:**\n```bash\nsudo systemctl restart NetworkManager\n```\n\n```",
+        "proposed_fix": "sudo systemctl restart NetworkManager",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:19:35",
+        "problem": "AFK: [2026-02-22 00:18:49] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# Analysis\nThe system is experiencing thermal throttling, indicating that the CPU temperature has exceeded 95\u00b0C, which can lead to performance degradation or system instability.\n```\n\n```bash\n# Explanation\nThermal throttling occurs when the CPU temperature exceeds a certain threshold, causing the system to reduce its performance to prevent overheating. This can be due to insufficient cooling, high CPU usage, or dust accumulation blocking airflow.\n```\n\n```bash\n# Fix Command\nsudo apt update && sudo apt install lm-sensors -y && sudo sensors-detect && sudo service thermald stop\n```\n\n```bash\n# Backup Command:\n**Backup Command:** ```bash\n# This command will stop the thermald service which controls thermal management, but it's important to note that this might not be the best long-term solution as it disables thermal protection. Ensure proper cooling and airflow around your system.\nsudo service thermald stop\n```",
+        "proposed_fix": "# Backup Command:\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:19:48",
+        "problem": "AFK: [2026-02-22 00:18:54] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\n# The PostgreSQL service failed to start because the port 5432 is already in use by another process.\n\n# Step 2: Brief explanation\n# Another process is currently using port 5432, which is required by PostgreSQL. To resolve this, we need to identify and stop the process using that port.\n\n# Step 3: Bash command to fix it\nbash\nCopied!\n# Find the process ID (PID) using port 5432\npid=$(sudo lsof -t -i:5432)\n\n# If a PID is found, stop the process\nif [ ! -z \"$pid\" ]; then\n    sudo kill $pid\n    echo \"Process using port 5432 has been terminated.\"\nelse\n    echo \"No process found using port 5432.\"\nfi\n\n# Restart PostgreSQL service\nsudo systemctl restart postgresql\n\n# Step 4: Backup command (if risky)\n**Backup Command:**\n```bash\n# Find the process ID (PID) using port 5432\npid=$(sudo lsof -t -i:5432)\n\n# If a PID is found, attempt to gracefully stop the process\nif [! -z \"$pid\" ]; then\n    sudo kill -15 $pid\n    echo \"Graceful termination request sent to process using port 5432.\"\nelse\n    echo \"No process found using port 5432.\"\nfi\n```",
+        "proposed_fix": "# Step 1: Analyze the error\n# The PostgreSQL service failed to start because the port 5432 is already in use by another process.\n\n# Step 2: Brief explanation\n# Another process is currently using port 5432, which is required by PostgreSQL. To resolve this, we need to identify and stop the process using that port.\n\n# Step 3: Bash command to fix it\nbash\nCopied!\n# Find the process ID (PID) using port 5432\npid=$(sudo lsof -t -i:5432)\n\n# If a PID is found, stop the process\nif [ ! -z \"$pid\" ]; then\n    sudo kill $pid\n    echo \"Process using port 5432 has been terminated.\"\nelse\n    echo \"No process found using port 5432.\"\nfi\n\n# Restart PostgreSQL service\nsudo systemctl restart postgresql\n\n# Step 4: Backup command (if risky)\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:20:01",
+        "problem": "AFK: [2026-02-22 00:19:02] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\nThe error message indicates that there is a mismatch between the installed NVIDIA driver version (535) and the kernel module version (525). This mismatch can cause instability and prevent the GPU from functioning correctly.\n\n# Step 2: Brief explanation\nThe error occurs because the installed driver and kernel module are not from the same version set, leading to potential conflicts and system instability.\n\n# Step 3: Bash command to fix it\n```bash\nsudo apt-get update && sudo apt-get install -y nvidia-driver-535 nvidia-kernel-source-535\nsudo reboot\n```\n\n# Step 4: Backup command\n**Backup Command:**\n```bash\nsudo apt-get update && sudo apt-get install -y nvidia-driver-525 nvidia-kernel-source-525\nsudo reboot\n```\n(Note: This backup command installs the matching driver and kernel module versions to ensure compatibility, but it might not resolve the issue if a newer driver is needed.)\n```",
+        "proposed_fix": "sudo apt-get update && sudo apt-get install -y nvidia-driver-525 nvidia-kernel-source-525\nsudo reboot",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:44:50",
+        "problem": "AFK: [2026-02-22 00:44:41] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# Analyze the error:\n# The system is experiencing thermal throttling because the CPU temperature has exceeded 95C, which is a critical threshold for most CPUs.\n\n# BRIEF explanation:\n# Thermal throttling occurs when a CPU's temperature exceeds a certain limit, causing the CPU to reduce its performance to prevent damage from overheating. This can happen due to insufficient cooling, high CPU load, or inadequate airflow in the system.\n\n# BASH COMMAND to fix it:\n# The following command will reduce the CPU frequency to lower the temperature. This can be done by modifying the CPU governor to 'ondemand' or 'conservative' which adjusts the CPU frequency based on the load.\nsudo cpufreq-set -r -g ondemand\n\n# Backup Command:\n# If the above command does not work or causes issues, reverting back to the default governor can be a safer approach.\n**Backup Command:**\n```bash\nsudo cpufreq-set -r -g performance\n```",
+        "proposed_fix": "# Analyze the error:\n# The system is experiencing thermal throttling because the CPU temperature has exceeded 95C, which is a critical threshold for most CPUs.\n\n# BRIEF explanation:\n# Thermal throttling occurs when a CPU's temperature exceeds a certain limit, causing the CPU to reduce its performance to prevent damage from overheating. This can happen due to insufficient cooling, high CPU load, or inadequate airflow in the system.\n\n# BASH COMMAND to fix it:\n# The following command will reduce the CPU frequency to lower the temperature. This can be done by modifying the CPU governor to 'ondemand' or 'conservative' which adjusts the CPU frequency based on the load.\nsudo cpufreq-set -r -g ondemand\n\n# Backup Command:\n# If the above command does not work or causes issues, reverting back to the default governor can be a safer approach.\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:45:03",
+        "problem": "AFK: [2026-02-22 00:44:51] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\nThe error message indicates a Kernel Panic due to a Memory Segment Violation at a specific address (0x004F). This typically points to a problem with memory management, possibly caused by a driver, hardware issue, or corrupted memory.\n\n# Step 2: Brief explanation\nA Kernel Panic due to a Memory Segment Violation suggests that the kernel attempted to access a memory location that it shouldn't, which can be caused by faulty hardware, bad drivers, or memory corruption.\n\n# Step 3: BASH command to fix it\nTo address this issue, we can start by checking the system logs for more details and then attempt to update the kernel and drivers.\n\n```bash\n# Update the system and kernel\nsudo apt update && sudo apt upgrade -y\n\n# Reboot the system to apply updates\nsudo reboot\n```\n\n# Step 4: Backup Command:\n**Backup Command:**\n```bash\n# Reboot the system to see if the issue persists\nsudo reboot\n```\n\nNote: If the problem persists after rebooting, further investigation into specific drivers or hardware diagnostics may be required.",
+        "proposed_fix": "# Reboot the system to see if the issue persists\nsudo reboot",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:45:15",
+        "problem": "AFK: [2026-02-22 00:45:00] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\n# The error indicates a mismatch between the installed NVIDIA driver version (535) and the kernel module version (525). This can lead to instability or failure in utilizing the GPU.\n\n# BRIEF explanation\n# The error occurs because the installed driver version does not match the kernel module version. This mismatch can cause the system to fail to properly initialize the GPU, leading to potential crashes or instability.\n\n# BASH COMMAND to fix it\n# To fix this, we need to ensure that both the driver and the kernel module are of the same version. We can reinstall the correct version of the driver to match the kernel module.\n\nbash\nCopied!\nsudo apt-get update && sudo apt-get install -y nvidia-driver-525\n\n\n# Backup Command:\n# If the above command fails or does not resolve the issue, you can remove the current driver and then reinstall the correct version.\n\n**Backup Command:**\n```bash\nsudo apt-get update && sudo apt-get remove -y nvidia* && sudo apt-get install -y nvidia-driver-525\n```",
+        "proposed_fix": "# Analyze the error\n# The error indicates a mismatch between the installed NVIDIA driver version (535) and the kernel module version (525). This can lead to instability or failure in utilizing the GPU.\n\n# BRIEF explanation\n# The error occurs because the installed driver version does not match the kernel module version. This mismatch can cause the system to fail to properly initialize the GPU, leading to potential crashes or instability.\n\n# BASH COMMAND to fix it\n# To fix this, we need to ensure that both the driver and the kernel module are of the same version. We can reinstall the correct version of the driver to match the kernel module.\n\nbash\nCopied!\nsudo apt-get update && sudo apt-get install -y nvidia-driver-525\n\n\n# Backup Command:\n# If the above command fails or does not resolve the issue, you can remove the current driver and then reinstall the correct version.\n\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:45:28",
+        "problem": "AFK: [2026-02-22 00:45:07] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\n# The error indicates that the WiFi adapter (wifi_adapter_0) is not reachable. This could be due to a variety of reasons such as driver issues, hardware problems, or misconfigurations.\n\n# BRIEF explanation\n# The WiFi adapter is not currently accessible, which could be due to driver issues, hardware problems, or configuration errors. \n\n# BASH COMMAND to fix it\nbash\nCopied!\nsudo modprobe -r <wifi_driver_module> && sudo modprobe <wifi_driver_module>\n\n\n# Backup Command:\n# If the above command does not work, you can try restarting the network service as a safer alternative.\n\n**Backup Command:**\n```bash\nsudo systemctl restart NetworkManager\n```",
+        "proposed_fix": "# Analyze the error\n# The error indicates that the WiFi adapter (wifi_adapter_0) is not reachable. This could be due to a variety of reasons such as driver issues, hardware problems, or misconfigurations.\n\n# BRIEF explanation\n# The WiFi adapter is not currently accessible, which could be due to driver issues, hardware problems, or configuration errors. \n\n# BASH COMMAND to fix it\nbash\nCopied!\nsudo modprobe -r <wifi_driver_module> && sudo modprobe <wifi_driver_module>\n\n\n# Backup Command:\n# If the above command does not work, you can try restarting the network service as a safer alternative.\n\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:47:37",
+        "problem": "AFK: [2026-02-22 00:47:26] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\n# The error indicates that the installed NVIDIA driver (version 535) does not match the kernel module (version 525). This mismatch can cause instability and potential crashes.\n\n# Step 2: Brief explanation\n# The error occurs because the installed NVIDIA driver is not compatible with the currently loaded kernel module. To fix this, we need to either update the driver to match the kernel module or update the kernel module to match the driver.\n\n# Step 3: BASH command to fix it\n# Here we will update the driver to match the kernel module.\nbash\nsudo apt update\nsudo apt install nvidia-driver-525\n\n\n# Step 4: Backup Command\n**Backup Command:**\n```bash\n# If updating the driver causes issues, you can revert to the previous driver version.\nsudo apt install nvidia-driver-535\n```",
+        "proposed_fix": "# Step 1: Analyze the error\n# The error indicates that the installed NVIDIA driver (version 535) does not match the kernel module (version 525). This mismatch can cause instability and potential crashes.\n\n# Step 2: Brief explanation\n# The error occurs because the installed NVIDIA driver is not compatible with the currently loaded kernel module. To fix this, we need to either update the driver to match the kernel module or update the kernel module to match the driver.\n\n# Step 3: BASH command to fix it\n# Here we will update the driver to match the kernel module.\nbash\nsudo apt update\nsudo apt install nvidia-driver-525\n\n\n# Step 4: Backup Command\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:47:54",
+        "problem": "AFK: [2026-02-22 00:47:33] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\nThe error message \"Kernel Panic - Memory Segment Violation at 0x004F\" indicates that the kernel has detected an illegal memory access, which can be caused by faulty hardware, driver issues, or software bugs.\n\n# Step 2: BRIEF explanation\nA memory segment violation at a specific address suggests that the kernel tried to access a memory location that it shouldn't, leading to a kernel panic. This can be due to a variety of reasons including faulty RAM, driver issues, or software bugs.\n\n# Step 3: BASH COMMAND to fix it\nTo diagnose and potentially fix this issue, we can run a memory test to check for faulty RAM.\n\n```bash\n# Run a memory test using 'memtest86+' from the GRUB menu\necho \"Rebooting into memory test...\"\nreboot\n```\n\n# Step 4: If risky, provide a backup command\n**Backup Command:**\n\n```bash\n# If the system is still operational, you can check dmesg logs for more information.\necho \"Checking dmesg logs for more information...\"\ndmesg | grep -i 'error\\|warn'\n```",
+        "proposed_fix": "# If the system is still operational, you can check dmesg logs for more information.\necho \"Checking dmesg logs for more information...\"\ndmesg | grep -i 'error\\|warn'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:48:07",
+        "problem": "AFK: [2026-02-22 00:47:43] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\nThe error indicates a Kernel Panic due to a Memory Segment Violation at a specific memory address (0x004F). This usually occurs when a process tries to access a memory segment it is not allowed to, which can be caused by bugs in the kernel or user-space applications.\n\n# Step 2: Brief explanation\nA Memory Segment Violation leading to a Kernel Panic suggests that a process or the kernel itself has attempted to access restricted memory, causing the system to crash for safety reasons. This could be due to faulty drivers, kernel bugs, or corrupted memory.\n\n# Step 3: BASH COMMAND to fix it\nTo address this issue, we need to identify the problematic process or driver and either update or remove it. Here is a command to check recent kernel messages for more details:\n\n```bash\ndmesg | grep -i 'fault address'\n```\n\n# Step 4: If risky, provide a backup command\n**Backup Command:**\n\n```bash\n# To safely reboot the system and see if the issue persists\nsudo reboot\n```\n\nThis will restart the system and may temporarily resolve the issue if it was caused by a transient error. However, for a permanent fix, further investigation into the logs and potentially updating or removing problematic software is necessary.\n```",
+        "proposed_fix": "# To safely reboot the system and see if the issue persists\nsudo reboot",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:48:19",
+        "problem": "AFK: [2026-02-22 00:47:50] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "### Analysis\nThe error message indicates that the WiFi adapter `wifi_adapter_0` is unreachable by the hardware interface. This could be due to a variety of reasons such as driver issues, hardware malfunction, or configuration problems.\n\n### Explanation\nThe hardware interface for the WiFi adapter `wifi_adapter_0` is not responding. This could be caused by missing or improperly installed drivers, a hardware issue, or a problem with the network configuration.\n\n### Fix\nTo address this issue, you can try restarting the network service and reloading the WiFi driver.\n\n```bash\nsudo systemctl restart NetworkManager\nsudo modprobe -r <wifi_driver_name>\nsudo modprobe <wifi_driver_name>\n```\n\nReplace `<wifi_driver_name>` with the actual driver name for your WiFi adapter, which can usually be found using `lspci` or `lshw`.\n\n### Backup Command\nIf the issue persists, it might be safer to reboot the system to ensure all network services and drivers are reloaded correctly.\n\n**Backup Command:**\n\n```bash\nsudo reboot\n```",
+        "proposed_fix": "sudo reboot",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:48:36",
+        "problem": "AFK: [2026-02-22 00:47:56] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# 1. Analyze the error:\nThe system has detected thermal throttling, which means the CPU temperature has exceeded 95C. This can cause performance issues and potential hardware damage if not addressed.\n\n# 2. Brief explanation:\nThermal throttling occurs when the CPU temperature rises above a safe threshold, causing the system to reduce the CPU's clock speed to prevent overheating. This can be due to inadequate cooling, high CPU load, or dust buildup in cooling components.\n\n# 3. BASH COMMAND to fix it:\nTo address thermal throttling, we need to ensure the cooling system is working properly and reduce CPU load if necessary.\n\n```bash\n# Ensure the system is not under heavy load\necho 2 | sudo tee /proc/sys/vm/drop_caches\n\n# Clean dust from cooling components (manually)\n# Restart the system to clear thermal throttling\nsudo reboot\n```\n\n# 4. If risky, provide a backup command:\n**Backup Command:**\n```bash\n# Restart the system to clear thermal throttling\nsudo reboot\n```",
+        "proposed_fix": "# Restart the system to clear thermal throttling\nsudo reboot",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:48:48",
+        "problem": "AFK: [2026-02-22 00:48:04] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "### Analysis\nThe error indicates that the CPU temperature has exceeded 95\u00b0C, leading to thermal throttling. This is a critical condition as it can potentially cause system instability and performance degradation.\n\n### Explanation\nThermal throttling occurs when the CPU temperature rises above a certain threshold, causing the CPU to reduce its clock speed to prevent overheating. This can be due to insufficient cooling, high CPU load, or inadequate thermal paste application.\n\n### BASH Command to Fix\nTo address this issue, you can install and configure thermald, a daemon that helps manage thermal zones and cooling devices.\n\n```bash\nsudo apt update\nsudo apt install thermald -y\nsudo systemctl enable thermald\nsudo systemctl start thermald\n```\n\n### Backup Command\nIf the above command does not resolve the issue, you can manually adjust the CPU frequency scaling governor to \"performance\" as a temporary measure.\n\n**Backup Command:**\n```bash\nsudo apt install cpufrequtils -y\nsudo cpufreq-set -r -g performance\n```",
+        "proposed_fix": "sudo apt install cpufrequtils -y\nsudo cpufreq-set -r -g performance",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:49:00",
+        "problem": "AFK: [2026-02-22 00:48:09] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\n# The PostgreSQL service failed to start because the port 5432 is already in use by another process.\n\n# Step 2: Brief explanation\n# The error indicates that another application is currently using port 5432, which is the default port for PostgreSQL. This prevents the PostgreSQL service from starting.\n\n# Step 3: Bash command to fix it\n# Identify the process using port 5432 and terminate it, then restart PostgreSQL service\nbash\nsudo lsof -i :5432 | awk 'NR!=1 {print $2}' | xargs sudo kill -9\nsudo systemctl restart postgresql\n\n# Step 4: Backup command\n**Backup Command:**\nbash\n# Backup command to identify the process using port 5432 without terminating it\nsudo lsof -i :5432\n```",
+        "proposed_fix": "# Step 1: Analyze the error\n# The PostgreSQL service failed to start because the port 5432 is already in use by another process.\n\n# Step 2: Brief explanation\n# The error indicates that another application is currently using port 5432, which is the default port for PostgreSQL. This prevents the PostgreSQL service from starting.\n\n# Step 3: Bash command to fix it\n# Identify the process using port 5432 and terminate it, then restart PostgreSQL service\nbash\nsudo lsof -i :5432 | awk 'NR!=1 {print $2}' | xargs sudo kill -9\nsudo systemctl restart postgresql\n\n# Step 4: Backup command\n**Backup Command:**\nbash\n# Backup command to identify the process using port 5432 without terminating it\nsudo lsof -i :5432",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:49:13",
+        "problem": "AFK: [2026-02-22 00:48:17] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# Analysis\nThe error indicates that there is a mismatch between the NVIDIA driver version (535) and the kernel module version (525). This can cause instability and potential crashes.\n\n# Explanation\nThis mismatch typically occurs when the driver and the kernel module are not updated together. The driver and the kernel module need to be compatible for proper functioning of the GPU.\n\n# Fix Command\nTo fix this issue, you need to update the kernel module to match the driver version.\n\n```bash\nsudo apt update && sudo apt upgrade -y\nsudo apt install nvidia-driver-535 nvidia-dkms -y\nsudo systemctl restart nvidia-driver\n```\n\n**Backup Command:**\nIf the above command does not work, you can try removing and reinstalling the driver.\n\n```bash\nsudo apt remove --purge nvidia* -y\nsudo add-apt-repository ppa:graphics-drivers/ppa -y\nsudo apt update && sudo apt install nvidia-driver-535 -y\nsudo systemctl restart nvidia-driver\n```",
+        "proposed_fix": "sudo apt remove --purge nvidia* -y\nsudo add-apt-repository ppa:graphics-drivers/ppa -y\nsudo apt update && sudo apt install nvidia-driver-535 -y\nsudo systemctl restart nvidia-driver",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:49:25",
+        "problem": "AFK: [2026-02-22 00:48:24] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "```bash\n# Analysis\nThe error indicates that the WiFi adapter identified as `wifi_adapter_0` is unreachable. This could be due to a variety of reasons such as driver issues, hardware problems, or incorrect configuration.\n\n# Explanation\nThe WiFi adapter is not being detected or is not responding. This could be due to the driver not being loaded correctly, the device being disabled, or other issues.\n\n# Fix\nTo re-initialize the WiFi adapter, we can try restarting the network service.\n\n```bash\nsudo systemctl restart NetworkManager\n```\n\n# Backup Command\nIf restarting the network service does not resolve the issue, you might need to reload the driver or investigate further into the hardware status.\n\n**Backup Command:**\n```bash\nsudo modprobe -r <wifi_driver_name> && sudo modprobe <wifi_driver_name>\n```\n\nReplace `<wifi_driver_name>` with the actual name of your WiFi driver, which can be found using `ls /lib/modules/$(uname -r)/kernel/drivers/net/wireless/`.\n```",
+        "proposed_fix": "sudo modprobe -r <wifi_driver_name> && sudo modprobe <wifi_driver_name>",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:49:38",
+        "problem": "AFK: [2026-02-22 00:48:29] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\n# The system is experiencing thermal throttling because the CPU temperature has exceeded 95\u00b0C, which is critical.\n\n# Step 2: Brief explanation\n# Thermal throttling occurs when the CPU temperature exceeds a safe threshold, causing the CPU to reduce its performance to prevent damage. This can be due to insufficient cooling or high system load.\n\n# Step 3: BASH Command to fix it\n# The following command will install and configure `thermald`, a thermal daemon that helps manage CPU temperature.\nsudo apt update && sudo apt install -y thermald\n\n# Step 4: Backup Command\n**Backup Command:**\n```bash\n# If the above command does not resolve the issue, you can manually adjust the CPU governor to 'performance' to ensure maximum performance at the risk of higher temperatures.\necho \"performance\" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor\n```",
+        "proposed_fix": "# Step 1: Analyze the error\n# The system is experiencing thermal throttling because the CPU temperature has exceeded 95\u00b0C, which is critical.\n\n# Step 2: Brief explanation\n# Thermal throttling occurs when the CPU temperature exceeds a safe threshold, causing the CPU to reduce its performance to prevent damage. This can be due to insufficient cooling or high system load.\n\n# Step 3: BASH Command to fix it\n# The following command will install and configure `thermald`, a thermal daemon that helps manage CPU temperature.\nsudo apt update && sudo apt install -y thermald\n\n# Step 4: Backup Command\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:49:50",
+        "problem": "AFK: [2026-02-22 00:48:34] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "### Analysis\nThe system is experiencing thermal throttling because the CPU temperature has exceeded 95\u00b0C, which is a critical threshold for many CPUs. This can lead to performance degradation and potential hardware damage if not addressed.\n\n### Explanation\nThermal throttling occurs when the CPU temperature reaches a critical level, causing the CPU to reduce its clock speed to prevent overheating. This can be caused by inadequate cooling, high CPU load, or dust buildup in cooling components.\n\n### Fix\nTo address this issue, we need to ensure that the cooling system is working properly and that the CPU load is managed.\n\n```bash\nsudo apt-get update && sudo apt-get install lm-sensors -y\nsudo sensors-detect\nsudo service thermald restart\n```\n\n### Backup Command\nIf the above commands do not resolve the issue, it might be necessary to manually intervene by cleaning the cooling system or adjusting fan speeds.\n\n**Backup Command:**\n\n```bash\nsudo apt-get update && sudo apt-get install fancontrol -y\nsudo pwmconfig\nsudo service fancontrol start\n```",
+        "proposed_fix": "sudo apt-get update && sudo apt-get install fancontrol -y\nsudo pwmconfig\nsudo service fancontrol start",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:50:03",
+        "problem": "AFK: [2026-02-22 00:48:40] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "### Analysis\nThe system has detected thermal throttling, indicating that the CPU temperature has exceeded 95\u00b0C, which can cause performance issues and potentially damage the CPU if sustained.\n\n### Explanation\nThermal throttling occurs when the CPU temperature rises above a safe threshold, prompting the system to reduce the CPU's clock speed to prevent overheating. This can be caused by inadequate cooling, high CPU load, or dust buildup in cooling components.\n\n### BASH Command to Fix\nTo mitigate this issue, you can adjust the thermal management settings or clean the cooling system physically.\n\n```bash\nsudo apt update && sudo apt install lm-sensors -y\nsudo sensors-detect\nsudo apt install thermald -y\nsudo systemctl enable thermald\nsudo systemctl start thermald\n```\n\n### Backup Command\nIf the above steps do not resolve the issue, you may need to physically inspect and clean the cooling system.\n\n**Backup Command:**\n\n```bash\nsudo shutdown -r now\n```\n\nThis command will safely reboot the system, which might temporarily resolve the issue if it's due to a transient problem. However, for a long-term solution, physical inspection and cleaning are recommended.",
+        "proposed_fix": "sudo shutdown -r now",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:50:15",
+        "problem": "AFK: [2026-02-22 00:48:49] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# Analysis:\nThe error indicates that there is a version mismatch between the NVIDIA driver and the kernel module. Specifically, the driver version is 535 while the kernel module version is 525.\n\n# Explanation:\nThis mismatch can cause instability and issues with GPU performance. It usually happens when the driver and the kernel module are not updated in tandem.\n\n# Fix Command:\nTo fix this, we need to update the kernel module to match the driver version.\n\n```bash\nsudo apt update && sudo apt install --only-upgrade nvidia-driver-535\n```\n\n# Backup Command:\nIf the above command fails, you can try reinstalling the driver to ensure both the driver and kernel module are correctly aligned.\n\n```bash\n**Backup Command:**\nbash\nCopied!\nsudo apt remove --purge nvidia* && sudo apt install nvidia-driver-535\n```",
+        "proposed_fix": "**Backup Command:**\nbash\nCopied!\nsudo apt remove --purge nvidia* && sudo apt install nvidia-driver-535",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 00:50:32",
+        "problem": "AFK: [2026-02-22 00:48:57] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "### Analysis\nThe error message indicates that the system is experiencing thermal throttling, with the CPU temperature exceeding 95\u00b0C. This can cause performance degradation and potential damage if not addressed.\n\n### Explanation\nThermal throttling occurs when the CPU temperature exceeds a safe threshold, causing the system to reduce the CPU's clock speed to cool it down. This is a protective mechanism to prevent overheating.\n\n### Fix\nTo address thermal throttling, you can clean the cooling system or adjust the thermal management settings. Here's a command to adjust the thermal management settings to a more aggressive mode.\n\n```bash\nsudo apt update && sudo apt install -y thermald\nsudo systemctl enable thermald\nsudo systemctl start thermald\necho \"OPTIONS='--cool_below=70'\" | sudo tee /etc/default/thermald\nsudo systemctl restart thermald\n```\n\n### Backup Command\nIf the above command does not resolve the issue, you can manually set the thermal limits using `cpufreq`.\n\n**Backup Command:**\n```bash\nsudo apt install -y cpufrequtils\nsudo cpufreq-set -r -g performance\nsudo cpufreq-set -c 0 -d 2.0GHz -u 2.0GHz\nsudo cpufreq-set -c 1 -d 2.0GHz -u 2.0GHz\n# Repeat for other cores as necessary\n```",
+        "proposed_fix": "sudo apt install -y cpufrequtils\nsudo cpufreq-set -r -g performance\nsudo cpufreq-set -c 0 -d 2.0GHz -u 2.0GHz\nsudo cpufreq-set -c 1 -d 2.0GHz -u 2.0GHz\n# Repeat for other cores as necessary",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:19:33",
+        "problem": "AFK: [2026-02-22 15:19:24] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\n# The PostgreSQL service failed to start because port 5432 is already in use by another process.\n\n# Step 2: Brief explanation\n# Another process is currently using port 5432, preventing the PostgreSQL service from starting. We need to identify and stop this process.\n\n# Step 3: BASH command to fix it\nbash\nCopied!\nsudo lsof -i :5432  # List the process using port 5432\nsudo kill -9 <PID>  # Replace <PID> with the actual process ID to terminate it\n\n# Step 4: Backup Command (if risky)\n**Backup Command:**\n```bash\n# If terminating the process is risky, you can restart the PostgreSQL service after a delay to allow the conflicting process to release the port.\nsudo systemctl stop postgresql  # Stop the PostgreSQL service\nsleep 10  # Wait for 10 seconds to allow the conflicting process to release the port\nsudo systemctl start postgresql  # Start the PostgreSQL service\n```\n\n```",
+        "proposed_fix": "# Step 1: Analyze the error\n# The PostgreSQL service failed to start because port 5432 is already in use by another process.\n\n# Step 2: Brief explanation\n# Another process is currently using port 5432, preventing the PostgreSQL service from starting. We need to identify and stop this process.\n\n# Step 3: BASH command to fix it\nbash\nCopied!\nsudo lsof -i :5432  # List the process using port 5432\nsudo kill -9 <PID>  # Replace <PID> with the actual process ID to terminate it\n\n# Step 4: Backup Command (if risky)\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:19:46",
+        "problem": "AFK: [2026-02-22 15:19:30] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\n# The error indicates a kernel panic due to a memory segment violation. This can be caused by various issues such as faulty memory, driver issues, or kernel bugs.\n\n# Step 2: Brief explanation\n# A memory segment violation at address 0x004F suggests that the system attempted to access a memory segment that it shouldn't have, leading to a kernel panic. This can be caused by corrupted memory, incompatible drivers, or kernel bugs.\n\n# Step 3: Provide a BASH COMMAND to fix it\n# The following command will help identify and potentially fix the issue by updating the system and its packages.\nbash\nsudo apt update && sudo apt upgrade -y\n\n# Step 4: If risky, provide a backup command\n**Backup Command:**\n```bash\n# This backup command will boot the system into a previous kernel version if available.\nsudo grub-reboot $(grep -oP '(?<=menuentry \\\").*(?=\\\")' /boot/grub/grub.cfg | grep -i 'previous linux')\nsudo update-grub\n```",
+        "proposed_fix": "# Step 1: Analyze the error\n# The error indicates a kernel panic due to a memory segment violation. This can be caused by various issues such as faulty memory, driver issues, or kernel bugs.\n\n# Step 2: Brief explanation\n# A memory segment violation at address 0x004F suggests that the system attempted to access a memory segment that it shouldn't have, leading to a kernel panic. This can be caused by corrupted memory, incompatible drivers, or kernel bugs.\n\n# Step 3: Provide a BASH COMMAND to fix it\n# The following command will help identify and potentially fix the issue by updating the system and its packages.\nbash\nsudo apt update && sudo apt upgrade -y\n\n# Step 4: If risky, provide a backup command\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:20:02",
+        "problem": "AFK: [2026-02-22 15:19:37] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\n# The system has detected thermal throttling due to the CPU temperature exceeding 95\u00b0C.\n\n# BRIEF explanation\n# Thermal throttling occurs when the CPU temperature rises above a certain threshold, causing the CPU to reduce its frequency to cool down. This can lead to performance degradation.\n\n# BASH COMMAND to fix it\n# We can use a tool like lm-sensors to monitor temperatures and adjust cooling settings if necessary.\nsudo apt update && sudo apt install -y lm-sensors\nsudo sensors-detect  # This command will help you configure temperature monitoring.\nwatch -n 1 \"sensors\"  # This will display the temperature every second.\n\n# Backup Command:\n**Backup Command:**\n# If the problem persists, you might need to physically clean the cooling system or replace thermal paste.\n# For advanced users, you can also adjust fan speeds using tools like fancontrol.\nsudo apt install -y fancontrol\nsudo pwmconfig  # This command will configure your fan speeds.\n```",
+        "proposed_fix": "# Analyze the error\n# The system has detected thermal throttling due to the CPU temperature exceeding 95\u00b0C.\n\n# BRIEF explanation\n# Thermal throttling occurs when the CPU temperature rises above a certain threshold, causing the CPU to reduce its frequency to cool down. This can lead to performance degradation.\n\n# BASH COMMAND to fix it\n# We can use a tool like lm-sensors to monitor temperatures and adjust cooling settings if necessary.\nsudo apt update && sudo apt install -y lm-sensors\nsudo sensors-detect  # This command will help you configure temperature monitoring.\nwatch -n 1 \"sensors\"  # This will display the temperature every second.\n\n# Backup Command:\n**Backup Command:**\n# If the problem persists, you might need to physically clean the cooling system or replace thermal paste.\n# For advanced users, you can also adjust fan speeds using tools like fancontrol.\nsudo apt install -y fancontrol\nsudo pwmconfig  # This command will configure your fan speeds.",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:20:15",
+        "problem": "AFK: [2026-02-22 15:19:45] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\nThe error message indicates a \"Kernel Panic - Memory Segment Violation\" at a specific address (0x004F). This typically occurs due to issues with memory management, such as bad memory modules, faulty RAM, or software bugs that improperly access memory.\n\n# Step 2: Brief explanation\nA memory segment violation causing a kernel panic suggests that the system encountered an invalid memory access. This can be due to hardware faults (like bad RAM) or software bugs. Immediate action is required to diagnose and fix the issue.\n\n# Step 3: Provide a BASH command to fix it\nTo diagnose and potentially fix the memory issue, you can run a memory test using the `memtest86+` tool.\n\n```bash\n# Install memtest86+ if not already installed\nsudo apt-get update && sudo apt-get install -y memtest86+\n\n# Reboot into memtest86+ for memory testing\nsudo reboot\n```\n\n# Step 4: If risky, provide a backup command\n**Backup Command:**\n```bash\n# Reboot the system to see if the issue persists\nsudo reboot\n```\n\nIf the kernel panic persists after the memory test, consider replacing the RAM modules or further diagnosing the system hardware.",
+        "proposed_fix": "# Reboot the system to see if the issue persists\nsudo reboot",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:20:27",
+        "problem": "AFK: [2026-02-22 15:19:50] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\nThe error message indicates a \"Kernel Panic - Memory Segment Violation,\" which means the kernel detected an attempt to access a memory segment that it should not, causing the system to crash.\n\n# Step 2: BRIEF explanation\nThis type of error is often caused by faulty hardware (like RAM), corrupted system files, or a driver issue. It can also be due to software bugs or malware.\n\n# Step 3: BASH COMMAND to fix it\nTo diagnose and potentially fix the issue, we can start by running a memory test and checking system logs.\n\n```bash\n# Run a memory test using 'memtest86+'\necho \"Running memory test...\"\nsudo apt update && sudo apt install -y memtest86+ && sudo memtest86+\n```\n\n# Step 4: Backup Command:\n**Backup Command:**\n\n```bash\n# Check system logs for more details\necho \"Checking system logs...\"\njournalctl -xe\n```\n\nThese commands will help diagnose the issue by running a memory test and checking system logs for more details. If the problem persists, further investigation into hardware or software configurations may be required.",
+        "proposed_fix": "# Check system logs for more details\necho \"Checking system logs...\"\njournalctl -xe",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:20:41",
+        "problem": "AFK: [2026-02-22 15:19:59] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "### Analysis\nThe system has detected thermal throttling, indicating that the CPU temperature has exceeded 95\u00b0C. This is a critical condition that can lead to system instability or hardware damage if not addressed.\n\n### Explanation\nThermal throttling occurs when the CPU temperature exceeds a safe operating limit, causing the CPU to reduce its performance to cool down. This is usually due to insufficient cooling, high ambient temperature, or dust buildup in cooling components.\n\n### Fix\nTo address this issue, we need to ensure the cooling system is functioning properly and reduce the CPU load if possible.\n\n```bash\n# Install lm-sensors and check CPU temperature\nsudo apt update && sudo apt install -y lm-sensors\nsudo sensors-detect\nwatch -n 1 \"sensors | grep 'Core'\"\n\n# Check for dust buildup and clean the cooling system if necessary\n# (This requires physically cleaning the system, so it's a manual step)\n```\n\n### Backup Command\nIf the above steps do not resolve the issue, you may need to manually intervene by opening the case and cleaning dust from the cooling components.\n\n**Backup Command:**\n```bash\n# Manually check CPU temperature and cooling system\n# (This requires physical access to the machine)\n```",
+        "proposed_fix": "# Manually check CPU temperature and cooling system\n# (This requires physical access to the machine)",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:20:53",
+        "problem": "AFK: [2026-02-22 15:20:05] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# 1. Analyze the error:\n# The system is experiencing thermal throttling because the CPU temperature has exceeded 95C, which is a critical threshold for many CPUs.\n\n# 2. BRIEF explanation:\n# Thermal throttling occurs when the CPU temperature reaches a critical level, causing the system to reduce its performance to prevent overheating and potential damage.\n\n# 3. BASH COMMAND to fix it:\n# Increase the fan speed and/or adjust thermal settings to prevent overheating.\nsudo apt update && sudo apt install lm-sensors -y\nsudo sensors-detect\nsudo apt install thermald -y\nsudo systemctl enable thermald\nsudo systemctl start thermald\n\n# 4. If risky, provide a backup command:\n**Backup Command:**\n```bash\n# If the above commands do not resolve the issue, consider manually adjusting the thermal settings or adding more cooling solutions.\nsudo apt install tlp tlp-rdw -y\nsudo tlp start\n```",
+        "proposed_fix": "# 1. Analyze the error:\n# The system is experiencing thermal throttling because the CPU temperature has exceeded 95C, which is a critical threshold for many CPUs.\n\n# 2. BRIEF explanation:\n# Thermal throttling occurs when the CPU temperature reaches a critical level, causing the system to reduce its performance to prevent overheating and potential damage.\n\n# 3. BASH COMMAND to fix it:\n# Increase the fan speed and/or adjust thermal settings to prevent overheating.\nsudo apt update && sudo apt install lm-sensors -y\nsudo sensors-detect\nsudo apt install thermald -y\nsudo systemctl enable thermald\nsudo systemctl start thermald\n\n# 4. If risky, provide a backup command:\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:21:06",
+        "problem": "AFK: [2026-02-22 15:20:10] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "```bash\n# 1. Analyze the error.\n# The error message indicates a Kernel Panic due to a Memory Segment Violation at a specific address (0x004F). \n# This is a critical issue that typically results from corrupted memory, faulty hardware, or driver issues.\n\n# 2. Provide a BRIEF explanation.\n# A Memory Segment Violation suggests that a process tried to access a memory area it shouldn't, causing the kernel to panic.\n\n# 3. Provide a BASH COMMAND to fix it inside a ```bash block.\nbash\n# Check for any memory errors using the 'mcelog' tool to identify and log any hardware errors.\n# If mcelog is not installed, install it first.\nsudo apt update && sudo apt install -y mcelog\nsudo mcelog --verbose\n\n# 4. If risky, provide a backup command inside a **Backup Command:** ```bash block.\n**Backup Command:**\n```bash\n# Reboot the system to recover from the Kernel Panic.\nsudo reboot\n```\n\n# Note: Rebooting the system will temporarily resolve the issue but not fix the underlying cause.\n# Further investigation is needed to identify and resolve the root cause of the memory segment violation.\n```",
+        "proposed_fix": "block.\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:21:18",
+        "problem": "AFK: [2026-02-22 15:20:15] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "```bash\n# Analysis\nThe error message indicates a kernel panic due to a memory segment violation at address 0x004F. This typically suggests a severe issue with memory management, possibly due to a faulty driver, corrupted memory, or hardware failure.\n\n# Explanation\nA memory segment violation at such a low address could be due to a critical system file being corrupted, a driver issue, or hardware malfunction. This is a serious issue that can lead to system instability and data loss.\n\n# Bash Command to Fix\nSince this is a critical error, we should first attempt to boot into a recovery mode or a live Linux environment to investigate further. However, if you're able to execute commands, you can try updating your system and checking for memory issues.\n\n```bash\nsudo apt update && sudo apt upgrade -y\nsudo dmesg | grep -i error\nsudo memtest86+\n```\n\n# Backup Command\n**Backup Command:**\n```bash\nsudo reboot\n```\nIf the system doesn't boot back into a stable state, consider booting from a live USB to investigate further or seek professional help.\n```",
+        "proposed_fix": "sudo reboot",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:21:30",
+        "problem": "AFK: [2026-02-22 15:20:20] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\n# The PostgreSQL service failed to start because the port 5432 is already in use by another process.\n\n# BRIEF explanation\n# The error indicates that another process is currently using port 5432, which is the default port for PostgreSQL. This prevents the PostgreSQL service from starting.\n\n# BASH COMMAND to fix it\n# Find the process using port 5432 and terminate it, then restart the PostgreSQL service.\nbash\nsudo lsof -i :5432\nsudo kill -9 <PID>\nsudo systemctl restart postgresql\n\n# Backup Command:\n# If terminating the process is risky, you can change the PostgreSQL port in its configuration file.\n**Backup Command:**\n```bash\n# Edit the PostgreSQL configuration file to change the port.\nsudo nano /etc/postgresql/<version>/main/postgresql.conf\n\n# Change the line:\n# port = 5432\n# to a different port, for example:\nport = 5433\n\n# Save and exit the file, then restart PostgreSQL.\nsudo systemctl restart postgresql\n```",
+        "proposed_fix": "# Analyze the error\n# The PostgreSQL service failed to start because the port 5432 is already in use by another process.\n\n# BRIEF explanation\n# The error indicates that another process is currently using port 5432, which is the default port for PostgreSQL. This prevents the PostgreSQL service from starting.\n\n# BASH COMMAND to fix it\n# Find the process using port 5432 and terminate it, then restart the PostgreSQL service.\nbash\nsudo lsof -i :5432\nsudo kill -9 <PID>\nsudo systemctl restart postgresql\n\n# Backup Command:\n# If terminating the process is risky, you can change the PostgreSQL port in its configuration file.\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:21:43",
+        "problem": "AFK: [2026-02-22 15:20:26] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# Analysis:\nThe error indicates that there is a mismatch between the NVIDIA driver version (535) and the kernel module version (525). This can cause instability and potential crashes.\n\n# Explanation:\nThe mismatch between the driver and kernel module versions can lead to system instability because they are not compatible with each other. It's essential to ensure that both components are of the same version to maintain system stability.\n\n# Fix:\nTo resolve this issue, you need to either update the driver to match the kernel module or vice versa.\n\n```bash\n# Backup Command:\nsudo cp /etc/modprobe.d/blacklist-nvidia.conf /etc/modprobe.d/blacklist-nvidia.conf.bak\n\n# Fix Command:\nsudo apt-get update && sudo apt-get install --only-upgrade nvidia-driver-525\n```\n\n1. The backup command saves the current blacklist configuration for NVIDIA.\n2. The fix command updates the driver to match the kernel module version.",
+        "proposed_fix": "# Backup Command:\nsudo cp /etc/modprobe.d/blacklist-nvidia.conf /etc/modprobe.d/blacklist-nvidia.conf.bak\n\n# Fix Command:\nsudo apt-get update && sudo apt-get install --only-upgrade nvidia-driver-525",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:21:55",
+        "problem": "AFK: [2026-02-22 15:20:34] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\nThe error message indicates that the WiFi adapter (wifi_adapter_0) is unreachable, which could be due to several reasons such as driver issues, hardware problems, or configuration errors.\n\n# Step 2: Brief explanation\nThe WiFi adapter is not being detected by the system, which can be caused by missing drivers, incorrect configuration, or hardware failure.\n\n# Step 3: BASH command to fix it\n```bash\nsudo systemctl restart NetworkManager\n```\n\n# Step 4: Backup command\n**Backup Command:**\n```bash\nsudo service NetworkManager restart\n```",
+        "proposed_fix": "sudo service NetworkManager restart",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:22:07",
+        "problem": "AFK: [2026-02-22 15:20:44] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\n# The PostgreSQL service failed to start because the port 5432 is already in use by another process.\n\n# Step 2: Brief explanation\n# Another process is currently using port 5432, which is the default port for PostgreSQL. This prevents PostgreSQL from starting.\n\n# Step 3: BASH COMMAND to fix it\n# Identify the process using port 5432 and terminate it, then try to start PostgreSQL again.\nbash\n# Find the process using port 5432\nsudo lsof -i :5432\n\n# If a process is found, terminate it\n# Replace <PID> with the actual process ID found in the previous command\nsudo kill -9 <PID>\n\n# Try to start PostgreSQL again\nsudo systemctl start postgresql\n\n# Step 4: If risky, provide a backup command\n**Backup Command:**\nbash\n# Check if the process using port 5432 is critical and if it's safe to terminate\nsudo lsof -i :5432\n\n# If it's safe to terminate, proceed with the steps above\n# Otherwise, consider changing the PostgreSQL port or investigating further\n```",
+        "proposed_fix": "# Step 1: Analyze the error\n# The PostgreSQL service failed to start because the port 5432 is already in use by another process.\n\n# Step 2: Brief explanation\n# Another process is currently using port 5432, which is the default port for PostgreSQL. This prevents PostgreSQL from starting.\n\n# Step 3: BASH COMMAND to fix it\n# Identify the process using port 5432 and terminate it, then try to start PostgreSQL again.\nbash\n# Find the process using port 5432\nsudo lsof -i :5432\n\n# If a process is found, terminate it\n# Replace <PID> with the actual process ID found in the previous command\nsudo kill -9 <PID>\n\n# Try to start PostgreSQL again\nsudo systemctl start postgresql\n\n# Step 4: If risky, provide a backup command\n**Backup Command:**\nbash\n# Check if the process using port 5432 is critical and if it's safe to terminate\nsudo lsof -i :5432\n\n# If it's safe to terminate, proceed with the steps above\n# Otherwise, consider changing the PostgreSQL port or investigating further",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:22:20",
+        "problem": "AFK: [2026-02-22 15:20:52] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# Analysis\nThe system has detected thermal throttling with the CPU temperature exceeding 95C, which can lead to performance degradation or potential hardware damage if not addressed.\n```\n\n```bash\n# Brief Explanation\nThermal throttling occurs when the CPU temperature reaches a critical level, prompting the system to reduce the CPU's clock speed to cool down. This is a protective measure to prevent overheating.\n```\n\n```bash\n# Bash Command to Fix\nsudo apt-get update && sudo apt-get install -y lm-sensors && sudo sensors-detect && sudo service thermald stop\n```\n\n```bash\n# Backup Command:\n**Backup Command:**\nsudo apt-get update && sudo apt-get install -y lm-sensors && sudo sensors-detect && sudo systemctl disable thermald\n```\n\nNote: The backup command disables the thermald service instead of stopping it, which might be preferred for a more permanent solution, but ensure to monitor the system's temperature to avoid overheating issues.",
+        "proposed_fix": "# Backup Command:\n**Backup Command:**\nsudo apt-get update && sudo apt-get install -y lm-sensors && sudo sensors-detect && sudo systemctl disable thermald",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:22:32",
+        "problem": "AFK: [2026-02-22 15:21:01] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "```bash\n# Analyze the error.\n# The PostgreSQL service is unable to start because port 5432 is already in use by another process.\n\n# BRIEF explanation.\n# Another process is currently using port 5432, which is required by PostgreSQL. This prevents PostgreSQL from binding to the port and starting.\n\n# BASH COMMAND to fix it.\n# Identify and stop the process using port 5432, then restart PostgreSQL.\nsudo lsof -i :5432 | grep -i 'listen' | awk '{print $2}' | xargs sudo kill -9 && sudo systemctl restart postgresql\n\n# Backup Command:\n# If stopping the process using port 5432 might cause issues, consider changing PostgreSQL's port.\n**Backup Command:**\n```bash\n# Edit the PostgreSQL configuration file to change the port.\nsudo nano /etc/postgresql/12/main/postgresql.conf\n\n# Change the 'port' line to something like 'port = 5433'.\n# Then restart PostgreSQL.\nsudo systemctl restart postgresql\n```",
+        "proposed_fix": "# Analyze the error.\n# The PostgreSQL service is unable to start because port 5432 is already in use by another process.\n\n# BRIEF explanation.\n# Another process is currently using port 5432, which is required by PostgreSQL. This prevents PostgreSQL from binding to the port and starting.\n\n# BASH COMMAND to fix it.\n# Identify and stop the process using port 5432, then restart PostgreSQL.\nsudo lsof -i :5432 | grep -i 'listen' | awk '{print $2}' | xargs sudo kill -9 && sudo systemctl restart postgresql\n\n# Backup Command:\n# If stopping the process using port 5432 might cause issues, consider changing PostgreSQL's port.\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:22:45",
+        "problem": "AFK: [2026-02-22 15:21:07] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# Analysis\nThe system has detected thermal throttling, indicating that the CPU temperature has exceeded 95\u00b0C, which is a critical threshold for most CPUs. This can cause performance degradation or system instability.\n\n# Explanation\nThermal throttling occurs when the CPU temperature reaches a critical level, prompting the system to reduce the CPU's clock speed to prevent overheating and potential damage.\n\n# Fix\nTo address this issue, you can adjust the thermal management settings to be more aggressive or ensure proper cooling and airflow.\n\n```bash\n# Install thermald if not already installed\nsudo apt-get update && sudo apt-get install -y thermald\n\n# Enable and start the thermald service\nsudo systemctl enable thermald && sudo systemctl start thermald\n\n# Backup Command:\n# If the above command does not resolve the issue, you can manually adjust the CPU frequency scaling governor to 'performance'. However, this might increase heat generation.\necho \"performance\" | sudo tee /sys/devices/system/cpu/cpufreq/policy*/scaling_governor\n```\n\n**Backup Command:**\n```bash\n# Manually set the CPU frequency scaling governor to 'performance'. This might increase heat generation, so use with caution.\necho \"performance\" | sudo tee /sys/devices/system/cpu/cpufreq/policy*/scaling_governor\n```",
+        "proposed_fix": "# Manually set the CPU frequency scaling governor to 'performance'. This might increase heat generation, so use with caution.\necho \"performance\" | sudo tee /sys/devices/system/cpu/cpufreq/policy*/scaling_governor",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:22:58",
+        "problem": "AFK: [2026-02-22 15:21:14] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\nThe system has detected thermal throttling, indicating that the CPU temperature has exceeded 95\u00b0C. This can cause performance issues and potential damage if not addressed.\n\n# Step 2: Brief explanation\nThermal throttling occurs when the CPU temperature rises above a safe threshold, causing the CPU to reduce its frequency to cool down. This can be due to inadequate cooling, high CPU usage, or insufficient airflow.\n\n# Step 3: BASH command to fix it\nTo address thermal throttling, we can install and configure `thermald` to manage CPU temperatures more effectively.\n\n```bash\nsudo apt update\nsudo apt install thermald -y\nsudo systemctl enable thermald\nsudo systemctl start thermald\n```\n\n# Step 4: Backup command\n**Backup Command:**\n```bash\nsudo apt remove thermald -y\nsudo systemctl stop thermald\nsudo systemctl disable thermald\n```\n\nThese commands will remove `thermald` if it causes any issues and revert the system to its original state.\n```",
+        "proposed_fix": "sudo apt remove thermald -y\nsudo systemctl stop thermald\nsudo systemctl disable thermald",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:23:10",
+        "problem": "AFK: [2026-02-22 15:21:19] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\n# The error indicates a mismatch between the NVIDIA driver version (535) and the kernel module version (525). This can cause instability and potential crashes.\n\n# BRIEF explanation\n# The error occurs because the installed NVIDIA driver and the kernel module are not of the same version. This mismatch can lead to system instability.\n\n# BASH COMMAND to fix it\nsudo apt-get remove --purge nvidia-*\nsudo reboot\n\n# Backup Command:\n# In case the above command fails or causes issues, you can try manually removing the components and then reinstalling the correct version.\n**Backup Command:** ```bash\nsudo apt-get remove --purge nvidia-*\nsudo apt-get install nvidia-driver-535\nsudo reboot\n```",
+        "proposed_fix": "# Analyze the error\n# The error indicates a mismatch between the NVIDIA driver version (535) and the kernel module version (525). This can cause instability and potential crashes.\n\n# BRIEF explanation\n# The error occurs because the installed NVIDIA driver and the kernel module are not of the same version. This mismatch can lead to system instability.\n\n# BASH COMMAND to fix it\nsudo apt-get remove --purge nvidia-*\nsudo reboot\n\n# Backup Command:\n# In case the above command fails or causes issues, you can try manually removing the components and then reinstalling the correct version.\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:23:22",
+        "problem": "AFK: [2026-02-22 15:21:26] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# 1. Analyze the error\nThe error indicates that there is a mismatch between the NVIDIA Driver version (535) and the Kernel Module version (525). This can cause instability and potential crashes.\n\n# 2. Provide a BRIEF explanation\nThe error occurs because the installed NVIDIA Driver is not compatible with the currently loaded Kernel Module. This mismatch can lead to system instability.\n\n# 3. Provide a BASH COMMAND to fix it inside a ```bash block\n```bash\nsudo apt-get remove --purge nvidia-*\nsudo apt-get update\nsudo apt-get install nvidia-driver-535\n```\n\n# 4. If risky, provide a backup command inside a **Backup Command:** ```bash block\n**Backup Command:**\n```bash\nsudo apt-get install nvidia-driver-525\n```\n```",
+        "proposed_fix": "block\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:23:34",
+        "problem": "AFK: [2026-02-22 15:21:35] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\nThe error indicates that the WiFi adapter (wifi_adapter_0) is not reachable, which could be due to a driver issue, a hardware problem, or a network service not running.\n\n# BRIEF explanation\nThe WiFi adapter is not responding, which may be caused by missing or improperly loaded drivers, or the network service might not be running.\n\n# BASH COMMAND to fix it\nsudo systemctl restart NetworkManager\n\n# Backup Command:\n**Backup Command:**\n```bash\nsudo systemctl restart wpa_supplicant\n```",
+        "proposed_fix": "# Analyze the error\nThe error indicates that the WiFi adapter (wifi_adapter_0) is not reachable, which could be due to a driver issue, a hardware problem, or a network service not running.\n\n# BRIEF explanation\nThe WiFi adapter is not responding, which may be caused by missing or improperly loaded drivers, or the network service might not be running.\n\n# BASH COMMAND to fix it\nsudo systemctl restart NetworkManager\n\n# Backup Command:\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:23:47",
+        "problem": "AFK: [2026-02-22 15:21:44] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# Analysis\nThe system has detected thermal throttling with the CPU temperature exceeding 95\u00b0C. This can lead to reduced performance and potential hardware damage if not addressed.\n\n# Explanation\nThermal throttling occurs when the CPU temperature reaches a critical level, causing the system to reduce the CPU's clock speed to prevent overheating. This can be due to insufficient cooling, high system load, or a malfunctioning cooling system.\n\n# BASH Command to Fix\nTo mitigate this issue, you can adjust the thermal settings to be more aggressive or ensure the cooling system is functioning properly. Here is a command to adjust the thermal settings:\n\n```bash\nsudo apt update && sudo apt install -y thermald\nsudo systemctl enable thermald\nsudo systemctl start thermald\n```\n\n# Backup Command:\n**Backup Command:**\nIf adjusting thermal settings doesn't resolve the issue, consider manually checking the cooling system and cleaning dust from the CPU cooler. If you're comfortable with hardware, you can also adjust fan speeds using tools like `fancontrol`.\n\n```bash\nsudo apt install -y lm-sensors fancontrol\nsudo sensors-detect\nsudo service fancontrol start\n```",
+        "proposed_fix": "sudo apt install -y lm-sensors fancontrol\nsudo sensors-detect\nsudo service fancontrol start",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:23:59",
+        "problem": "AFK: [2026-02-22 15:21:49] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# 1. Analyze the error\nThe system is experiencing thermal throttling, which means the CPU temperature has exceeded 95\u00b0C, leading to performance reduction to prevent overheating.\n\n# 2. Brief explanation\nThermal throttling occurs when the CPU gets too hot, and the system reduces its performance to lower the temperature. This can be caused by insufficient cooling, high CPU load, or a malfunctioning cooling system.\n\n# 3. BASH COMMAND to fix it\nTo address thermal throttling, you can adjust the CPU governor to a cooler setting or improve cooling.\n\n```bash\nsudo apt update && sudo apt install -y cpufrequtils\nsudo cpufreq-set -r -g powersave\n```\n\n# 4. If risky, provide a backup command\n**Backup Command:**\n\n```bash\nsudo apt update && sudo apt install -y thermald\nsudo systemctl enable thermald\nsudo systemctl start thermald\n```\n\nThese commands install and enable `thermald`, a daemon that manages thermal zones and can help prevent thermal throttling by managing cooling more effectively.",
+        "proposed_fix": "sudo apt update && sudo apt install -y thermald\nsudo systemctl enable thermald\nsudo systemctl start thermald",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:24:12",
+        "problem": "AFK: [2026-02-22 15:21:54] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "```bash\n# 1. Analyze the error.\n# The error indicates a Kernel Panic due to a Memory Segment Violation. This typically\n# happens when a process tries to access memory that it is not supposed to, which can\n# be caused by faulty hardware, buggy drivers, or corrupted software.\n\n# 2. Provide a BRIEF explanation.\n# The Kernel Panic with a Memory Segment Violation suggests that there is a serious\n# issue with memory access in the system, which can be due to faulty hardware, buggy\n# drivers, or corrupted software.\n\n# 3. Provide a BASH COMMAND to fix it inside a ```bash block.\n```bash\n# Reboot the system to recover from the Kernel Panic\nsudo reboot\n```\n\n# 4. If risky, provide a backup command inside a **Backup Command:** ```bash block.\n**Backup Command:**\n```bash\n# If rebooting does not resolve the issue, you can try booting into a recovery mode\n# or a previous kernel version if available\nsudo reboot -b\n```",
+        "proposed_fix": "block.\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:24:24",
+        "problem": "AFK: [2026-02-22 15:22:02] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\nThe error indicates that there is a mismatch between the NVIDIA Driver version (535) and the Kernel Module version (525). This mismatch can cause instability and issues with GPU functionality.\n\n# Step 2: Brief explanation\nThe error occurs because the installed NVIDIA Driver and the Kernel Module are not compatible. To fix this, you need to ensure that both the driver and the kernel module are of the same version.\n\n# Step 3: Bash command to fix it\nsudo apt-get update && sudo apt-get install -y nvidia-driver-535 nvidia-dkms\n\n# Step 4: Backup command\n**Backup Command:**\n```bash\nsudo apt-get update && sudo apt-get install -y nvidia-driver-525 nvidia-dkms\n```\n```",
+        "proposed_fix": "# Step 1: Analyze the error\nThe error indicates that there is a mismatch between the NVIDIA Driver version (535) and the Kernel Module version (525). This mismatch can cause instability and issues with GPU functionality.\n\n# Step 2: Brief explanation\nThe error occurs because the installed NVIDIA Driver and the Kernel Module are not compatible. To fix this, you need to ensure that both the driver and the kernel module are of the same version.\n\n# Step 3: Bash command to fix it\nsudo apt-get update && sudo apt-get install -y nvidia-driver-535 nvidia-dkms\n\n# Step 4: Backup command\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:24:36",
+        "problem": "AFK: [2026-02-22 15:22:07] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "```bash\n# Analyzing the error, a \"Memory Segment Violation\" indicates that a process attempted to access a memory segment it was not supposed to, which can lead to a Kernel Panic.\n\n# Explanation:\n# A Memory Segment Violation usually occurs due to a bug in the software, such as a null pointer dereference, buffer overflow, or incorrect memory management. This can lead to a Kernel Panic, which is a safety measure by the kernel to halt the system to prevent further damage.\n\n# BASH COMMAND to fix it:\n# Since this is a critical error, it's not something that can be fixed with a simple command. The system may need to be rebooted to recover from a Kernel Panic. However, you can try to identify and fix the underlying issue by examining the logs and identifying the faulty process.\n\n# Backup Command:\n**Backup Command:**\n```bash\n# Reboot the system to recover from the Kernel Panic.\nsudo reboot\n```",
+        "proposed_fix": "# Analyzing the error, a \"Memory Segment Violation\" indicates that a process attempted to access a memory segment it was not supposed to, which can lead to a Kernel Panic.\n\n# Explanation:\n# A Memory Segment Violation usually occurs due to a bug in the software, such as a null pointer dereference, buffer overflow, or incorrect memory management. This can lead to a Kernel Panic, which is a safety measure by the kernel to halt the system to prevent further damage.\n\n# BASH COMMAND to fix it:\n# Since this is a critical error, it's not something that can be fixed with a simple command. The system may need to be rebooted to recover from a Kernel Panic. However, you can try to identify and fix the underlying issue by examining the logs and identifying the faulty process.\n\n# Backup Command:\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:24:49",
+        "problem": "AFK: [2026-02-22 15:22:16] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\n# The error message indicates that the WiFi adapter (wifi_adapter_0) is not reachable. This could be due to a driver issue, hardware problem, or a software configuration issue.\n\n# BRIEF explanation\n# The WiFi adapter is not reachable, which could be caused by a missing or improperly configured driver, hardware issue, or a problem with the network manager.\n\n# BASH COMMAND to fix it\n# To fix the issue, we can try restarting the network manager service, which often resolves connectivity issues.\nsudo systemctl restart NetworkManager\n\n# Backup Command:\n# If restarting the network manager does not resolve the issue, we can try reloading the WiFi driver.\n**Backup Command:**\n```bash\nsudo modprobe -r <wifi_driver_name> && sudo modprobe <wifi_driver_name>\n```",
+        "proposed_fix": "# Analyze the error\n# The error message indicates that the WiFi adapter (wifi_adapter_0) is not reachable. This could be due to a driver issue, hardware problem, or a software configuration issue.\n\n# BRIEF explanation\n# The WiFi adapter is not reachable, which could be caused by a missing or improperly configured driver, hardware issue, or a problem with the network manager.\n\n# BASH COMMAND to fix it\n# To fix the issue, we can try restarting the network manager service, which often resolves connectivity issues.\nsudo systemctl restart NetworkManager\n\n# Backup Command:\n# If restarting the network manager does not resolve the issue, we can try reloading the WiFi driver.\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:25:01",
+        "problem": "AFK: [2026-02-22 15:22:21] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "### Analysis\nThe error message indicates a kernel panic due to a memory segment violation at address `0x004F`. This is a critical issue that typically arises from faulty hardware (like RAM), driver issues, or corrupted kernel modules.\n\n### Explanation\nA memory segment violation often means that a process attempted to access a memory region it's not supposed to, leading to a kernel panic. This could be due to a faulty memory module, driver issues, or corrupted kernel modules.\n\n### Bash Command to Fix\nTo address this issue, you can start by running a memory test to check for faulty RAM. If the problem persists, you might need to update or roll back your kernel.\n\n```bash\n# Run a memory test using memtest86+\nsudo apt-get update\nsudo apt-get install memtest86+ -y\nsudo memtest86+\n```\n\n### Backup Command\nIf the problem persists after running the memory test, you might want to update or roll back your kernel.\n\n**Backup Command:**\n\n```bash\n# Update your system and kernel\nsudo apt-get update\nsudo apt-get upgrade -y\nsudo apt-get install linux-generic -y\n\n# Reboot to apply changes\nsudo reboot\n```",
+        "proposed_fix": "# Update your system and kernel\nsudo apt-get update\nsudo apt-get upgrade -y\nsudo apt-get install linux-generic -y\n\n# Reboot to apply changes\nsudo reboot",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:25:13",
+        "problem": "AFK: [2026-02-22 15:22:27] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "```bash\n# Analysis:\n# The error indicates that the WiFi adapter is not reachable, which could be due to a driver issue, \n# a hardware problem, or a misconfiguration.\n\n# Explanation:\n# The WiFi adapter is not being recognized by the system, which could be caused by missing or \n# improperly installed drivers, or a system misconfiguration.\n\n# Command to Fix:\n# Restart the network service to reinitialize the WiFi adapter.\n\nsudo systemctl restart NetworkManager\n\n# Backup Command:\n# If the above command does not work, you can try reloading the driver.\n\n**Backup Command:**\n```bash\nsudo modprobe -r <driver_name> && sudo modprobe <driver_name>\n```\n# Note: Replace `<driver_name>` with the actual name of the WiFi driver.\n```",
+        "proposed_fix": "sudo modprobe -r <driver_name> && sudo modprobe <driver_name>",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:25:26",
+        "problem": "AFK: [2026-02-22 15:22:35] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# 1. Analyze the error:\n# The system is experiencing thermal throttling because the CPU temperature has exceeded 95\u00b0C, which is critical and can lead to performance degradation or system instability.\n\n# 2. BRIEF explanation:\n# Thermal throttling occurs when the CPU temperature exceeds a safe threshold, causing the CPU to reduce its frequency to cool down. This can be due to inadequate cooling, high CPU load, or dust buildup in cooling components.\n\n# 3. BASH COMMAND to fix it:\n# Increase cooling efficiency by cleaning dust from the cooling system and ensure proper airflow. Additionally, monitor and manage CPU load.\nbash\nCopied!\nsudo apt update && sudo apt install lm-sensors -y\nsudo sensors-detect\nsudo service thermald restart\nwatch -n 5 'sensors'\n\n# 4. Backup Command:\n**Backup Command:**\n```bash\n# If the above commands do not resolve the issue, consider undervolting the CPU as a temporary measure.\nsudo apt install cpufrequtils -y\nsudo cpufreq-set -r -u 2.0GHz  # Adjust the frequency to a safe level, e.g., 2.0GHz\n```",
+        "proposed_fix": "# 1. Analyze the error:\n# The system is experiencing thermal throttling because the CPU temperature has exceeded 95\u00b0C, which is critical and can lead to performance degradation or system instability.\n\n# 2. BRIEF explanation:\n# Thermal throttling occurs when the CPU temperature exceeds a safe threshold, causing the CPU to reduce its frequency to cool down. This can be due to inadequate cooling, high CPU load, or dust buildup in cooling components.\n\n# 3. BASH COMMAND to fix it:\n# Increase cooling efficiency by cleaning dust from the cooling system and ensure proper airflow. Additionally, monitor and manage CPU load.\nbash\nCopied!\nsudo apt update && sudo apt install lm-sensors -y\nsudo sensors-detect\nsudo service thermald restart\nwatch -n 5 'sensors'\n\n# 4. Backup Command:\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:25:39",
+        "problem": "AFK: [2026-02-22 15:22:44] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "### Analysis\nThe error message indicates that the system is experiencing thermal throttling because the CPU temperature has exceeded 95\u00b0C. This can lead to performance degradation and potential hardware damage if not addressed.\n\n### Explanation\nThermal throttling occurs when the CPU temperature reaches a critical threshold, causing the CPU to reduce its clock speed to prevent overheating. This is a protective measure to avoid damage but results in reduced system performance.\n\n### BASH Command to Fix\nTo mitigate thermal throttling, you can adjust the CPU governor to a cooler setting or install and configure thermal monitoring and management tools.\n\n```bash\nsudo apt update && sudo apt install -y thermald\nsudo systemctl enable thermald\nsudo systemctl start thermald\n```\n\n### Backup Command\nIf the above command does not resolve the issue, you can manually set the CPU governor to \"performance\" to ensure it runs at full speed, but be cautious as this can increase temperatures.\n\n**Backup Command:**\n```bash\necho \"performance\" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor\n```",
+        "proposed_fix": "echo \"performance\" | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:25:52",
+        "problem": "AFK: [2026-02-22 15:22:50] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "### Analysis:\nThe error message indicates a Kernel Panic due to a Memory Segment Violation at address `0x004F`. This type of error is usually caused by a process trying to access memory that it is not allowed to, which can be due to bugs in the kernel, faulty drivers, or malfunctioning hardware.\n\n### Explanation:\nA Kernel Panic caused by a Memory Segment Violation suggests that there is an issue with how memory is being accessed by the system. This can be due to a variety of reasons, such as:\n- A faulty kernel module or driver.\n- Bugs in the kernel itself.\n- Hardware issues, such as faulty RAM.\n\n### BASH Command to Fix:\nTo diagnose and potentially fix this issue, you can start by checking the system logs for more detailed information and then rebooting the system to see if the issue persists.\n\n```bash\n# Check the system logs for more details\njournalctl -xe | less\n\n# Reboot the system to see if the issue persists\nsudo reboot\n```\n\n### Backup Command:\nIf the issue persists after rebooting, you might want to run a memory test to check for faulty RAM.\n\n**Backup Command:**\n\n```bash\n# Install Memtest86+ if not already installed\nsudo apt-get update && sudo apt-get install -y memtest86+\n\n# Reboot into Memtest86+ to test the RAM\nsudo reboot\n\n# Follow the on-screen instructions to start Memtest86+\n```\n\nIf Memtest86+ finds issues with the RAM, you will need to replace the faulty memory modules.",
+        "proposed_fix": "# Check the system logs for more details\njournalctl -xe | less\n\n# Reboot the system to see if the issue persists\nsudo reboot",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:26:04",
+        "problem": "AFK: [2026-02-22 15:22:56] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\n# The PostgreSQL service failed to start because the port 5432 is already in use by another process.\n\n# BRIEF explanation\n# The error indicates that another application or instance of PostgreSQL is currently using port 5432, preventing the PostgreSQL service from starting.\n\n# BASH COMMAND to fix it\nbash\n# Identify the process using port 5432 and terminate it\nsudo lsof -i :5432 | grep -v PID | awk '{print $2}' | xargs sudo kill -9\n\n# Restart PostgreSQL service\nsudo systemctl restart postgresql\n\n# Backup Command:\n**Backup Command:**\nbash\n# Backup the current PostgreSQL data directory before making changes\nsudo cp -r /var/lib/postgresql/14/main /var/lib/postgresql/14/main_backup_$(date +%F)\n```",
+        "proposed_fix": "# Analyze the error\n# The PostgreSQL service failed to start because the port 5432 is already in use by another process.\n\n# BRIEF explanation\n# The error indicates that another application or instance of PostgreSQL is currently using port 5432, preventing the PostgreSQL service from starting.\n\n# BASH COMMAND to fix it\nbash\n# Identify the process using port 5432 and terminate it\nsudo lsof -i :5432 | grep -v PID | awk '{print $2}' | xargs sudo kill -9\n\n# Restart PostgreSQL service\nsudo systemctl restart postgresql\n\n# Backup Command:\n**Backup Command:**\nbash\n# Backup the current PostgreSQL data directory before making changes\nsudo cp -r /var/lib/postgresql/14/main /var/lib/postgresql/14/main_backup_$(date +%F)",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:26:57",
+        "problem": "AFK: [2026-02-22 15:26:48] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\n# The PostgreSQL service failed to start because the port 5432 is already in use by another process.\n\n# Step 2: Brief explanation\n# Another process is using port 5432, which is required by PostgreSQL. This prevents PostgreSQL from binding to the port and starting up.\n\n# Step 3: Bash command to fix it\n# Identify and stop the process using port 5432, then start the PostgreSQL service.\nbash\nsudo lsof -i :5432\nsudo kill -9 <PID>\nsudo systemctl start postgresql\n\n# Step 4: Backup command (if risky)\n# If stopping the process using port 5432 might affect other services, you can try restarting PostgreSQL instead.\n**Backup Command:**\n```bash\nsudo systemctl restart postgresql\n```",
+        "proposed_fix": "# Step 1: Analyze the error\n# The PostgreSQL service failed to start because the port 5432 is already in use by another process.\n\n# Step 2: Brief explanation\n# Another process is using port 5432, which is required by PostgreSQL. This prevents PostgreSQL from binding to the port and starting up.\n\n# Step 3: Bash command to fix it\n# Identify and stop the process using port 5432, then start the PostgreSQL service.\nbash\nsudo lsof -i :5432\nsudo kill -9 <PID>\nsudo systemctl start postgresql\n\n# Step 4: Backup command (if risky)\n# If stopping the process using port 5432 might affect other services, you can try restarting PostgreSQL instead.\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:27:09",
+        "problem": "AFK: [2026-02-22 15:26:58] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "```bash\n# Step 1: Analyze the error\nThe error indicates that the WiFi adapter (wifi_adapter_0) is unreachable by the hardware interface, which could be due to driver issues, hardware problems, or a misconfiguration.\n\n# Step 2: BRIEF explanation\nThe WiFi adapter is not responding to the system, likely because of a driver issue or a misconfiguration. This can prevent the system from connecting to wireless networks.\n\n# Step 3: BASH COMMAND to fix it\n```bash\nsudo systemctl restart NetworkManager\n```\n\n# Step 4: If risky, provide a backup command\n**Backup Command:**\n```bash\nsudo modprobe -r <wifi_driver_module> && sudo modprobe <wifi_driver_module>\n```\n(Replace `<wifi_driver_module>` with the actual name of the WiFi driver module, e.g., `iwlwifi` for Intel WiFi drivers.)\n```",
+        "proposed_fix": "sudo modprobe -r <wifi_driver_module> && sudo modprobe <wifi_driver_module>",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:27:22",
+        "problem": "AFK: [2026-02-22 15:27:08] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\n# The error indicates that there is a mismatch between the installed NVIDIA driver (version 535) and the kernel module (version 525). This can lead to instability or failure of the GPU functionalities.\n\n# BRIEF explanation\n# The error is due to an inconsistency between the installed driver and kernel module versions for the NVIDIA GPU. The driver version is newer than the kernel module, which can cause compatibility issues.\n\n# BASH COMMAND to fix it\nsudo apt-get remove --purge nvidia-*\nsudo reboot\nsudo apt-get install nvidia-driver-535\n\n# Backup Command:\n# If the above command does not resolve the issue, you can try installing a compatible driver version.\n# Backup Command:\n```bash\nsudo apt-get remove --purge nvidia-*\nsudo reboot\nsudo apt-get install nvidia-driver-525\n```",
+        "proposed_fix": "# Analyze the error\n# The error indicates that there is a mismatch between the installed NVIDIA driver (version 535) and the kernel module (version 525). This can lead to instability or failure of the GPU functionalities.\n\n# BRIEF explanation\n# The error is due to an inconsistency between the installed driver and kernel module versions for the NVIDIA GPU. The driver version is newer than the kernel module, which can cause compatibility issues.\n\n# BASH COMMAND to fix it\nsudo apt-get remove --purge nvidia-*\nsudo reboot\nsudo apt-get install nvidia-driver-535\n\n# Backup Command:\n# If the above command does not resolve the issue, you can try installing a compatible driver version.\n# Backup Command:",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:27:34",
+        "problem": "AFK: [2026-02-22 15:27:14] ERROR: wifi_adapter_0: Hardware Interface Unreachable\n",
+        "ai_diagnosis": "```bash\n# Analysis:\nThe error message indicates that the WiFi adapter (wifi_adapter_0) is unreachable by the hardware interface. This could be due to several reasons such as driver issues, hardware problems, or configuration errors.\n\n# Explanation:\nThe WiFi adapter is not being recognized by the system, which could be caused by missing or improperly installed drivers, a misconfigured network manager, or a hardware fault.\n\n# Command to Fix:\nTo address this issue, we will reinstall the WiFi drivers and restart the network manager.\n\n```bash\nsudo apt update && sudo apt install --reinstall linux-modules-extra-$(uname -r) && sudo systemctl restart NetworkManager\n```\n\n# Backup Command:\n**Backup Command:**\n```bash\nsudo apt update && sudo apt install --reinstall linux-modules-extra-$(uname -r) && sudo systemctl restart NetworkManager\n```\n```",
+        "proposed_fix": "sudo apt update && sudo apt install --reinstall linux-modules-extra-$(uname -r) && sudo systemctl restart NetworkManager",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:27:47",
+        "problem": "AFK: [2026-02-22 15:27:22] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "### Analysis\nThe system has detected thermal throttling, indicating that the CPU temperature has exceeded 95\u00b0C. This can lead to performance degradation or system instability.\n\n### Explanation\nThermal throttling occurs when the CPU's temperature exceeds a safe limit, causing the system to reduce the CPU's clock speed to prevent overheating.\n\n### Bash Command to Fix\nTo mitigate this issue, you can install and configure a tool like `thermald` to manage thermal throttling more effectively.\n\n```bash\nsudo apt update && sudo apt install -y thermald\nsudo systemctl enable thermald\nsudo systemctl start thermald\n```\n\n### Backup Command\nIf the above solution does not work, you can manually adjust the CPU frequency scaling governor to `performance` as a temporary measure.\n\n**Backup Command:**\n```bash\nsudo apt install -y cpufrequtils\nsudo cpufreq-set -r -g performance\n```",
+        "proposed_fix": "sudo apt install -y cpufrequtils\nsudo cpufreq-set -r -g performance",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:27:59",
+        "problem": "AFK: [2026-02-22 15:27:31] CRITICAL: Kernel Panic - Memory Segment Violation at 0x004F\n",
+        "ai_diagnosis": "### Analysis:\nThe error message indicates a kernel panic due to a memory segment violation at address `0x004F`. This typically occurs when a process tries to access a memory location that it is not permitted to access.\n\n### Explanation:\nA memory segment violation can be caused by various issues such as faulty hardware (e.g., RAM), corrupted system files, or software bugs. This error can lead to system instability and potential data loss.\n\n### BASH Command to Fix:\nTo diagnose and potentially fix the issue, you can run a memory test and check system logs for more details.\n\n```bash\n# Run a memory test using memtest86+\nsudo memtest86+\n\n# Check system logs for more details about the memory violation\ndmesg | grep -i 'memory segment violation'\n```\n\n### Backup Command:\nIf running a memory test is not feasible, you can try booting into a recovery mode and checking the system logs.\n\n**Backup Command:**\n```bash\n# Reboot into recovery mode and check system logs\nreboot -f\n\n# Once in recovery mode, check system logs\ndmesg | grep -i'memory segment violation'\n```",
+        "proposed_fix": "# Run a memory test using memtest86+\nsudo memtest86+\n\n# Check system logs for more details about the memory violation\ndmesg | grep -i 'memory segment violation'",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:28:12",
+        "problem": "AFK: [2026-02-22 15:27:40] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\n# The PostgreSQL service is failing to start because port 5432 is already in use by another process.\n\n# BRIEF explanation\n# Another process is currently using port 5432, which is required by PostgreSQL. This prevents PostgreSQL from starting.\n\n# BASH COMMAND to fix it\n# Identify the process using port 5432 and stop it, then try starting PostgreSQL again.\nbash\nsudo lsof -i :5432  # To identify the process using port 5432\nsudo kill -9 <PID>  # Replace <PID> with the actual process ID found in the previous command\nsudo systemctl start postgresql  # To start the PostgreSQL service\n\n# Backup Command:\n# If stopping the process using port 5432 is risky, consider changing the PostgreSQL port.\n**Backup Command:**\nbash\nsudo cp /etc/postgresql/12/main/postgresql.conf /etc/postgresql/12/main/postgresql.conf.bak  # Backup the original configuration file\nsudo sed -i 's/#port = 5432/port = 5433/' /etc/postgresql/12/main/postgresql.conf  # Change the PostgreSQL port to 5433\nsudo systemctl restart postgresql  # Restart PostgreSQL to apply the changes\n```",
+        "proposed_fix": "# Analyze the error\n# The PostgreSQL service is failing to start because port 5432 is already in use by another process.\n\n# BRIEF explanation\n# Another process is currently using port 5432, which is required by PostgreSQL. This prevents PostgreSQL from starting.\n\n# BASH COMMAND to fix it\n# Identify the process using port 5432 and stop it, then try starting PostgreSQL again.\nbash\nsudo lsof -i :5432  # To identify the process using port 5432\nsudo kill -9 <PID>  # Replace <PID> with the actual process ID found in the previous command\nsudo systemctl start postgresql  # To start the PostgreSQL service\n\n# Backup Command:\n# If stopping the process using port 5432 is risky, consider changing the PostgreSQL port.\n**Backup Command:**\nbash\nsudo cp /etc/postgresql/12/main/postgresql.conf /etc/postgresql/12/main/postgresql.conf.bak  # Backup the original configuration file\nsudo sed -i 's/#port = 5432/port = 5433/' /etc/postgresql/12/main/postgresql.conf  # Change the PostgreSQL port to 5433\nsudo systemctl restart postgresql  # Restart PostgreSQL to apply the changes",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:28:24",
+        "problem": "AFK: [2026-02-22 15:27:48] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\n# The system has detected that the CPU temperature has exceeded 95C, leading to thermal throttling.\n# This can cause performance degradation and potential damage to the CPU if not addressed.\n\n# Brief explanation\n# Thermal throttling occurs when the CPU temperature exceeds a certain threshold, causing the CPU to reduce its frequency to cool down. This is a protective mechanism to prevent overheating.\n\n# BASH Command to fix it\n# To address thermal throttling, you can clean the cooling system and ensure proper airflow.\n# Additionally, you can use software tools to monitor and manage CPU temperatures.\n\n# Note: This command will not directly fix the issue but will help in monitoring the CPU temperature.\nwatch -n 1 'sensors | grep \"Package id 0\"'\n\n# Backup Command:\n**Backup Command:**\n```bash\n# If the issue persists, you can adjust the thermal settings in the BIOS/UEFI.\n# This is a risky operation and should be done with caution.\nsudo apt update && sudo apt install lm-sensors -y\nsudo sensors-detect\n```",
+        "proposed_fix": "# Analyze the error\n# The system has detected that the CPU temperature has exceeded 95C, leading to thermal throttling.\n# This can cause performance degradation and potential damage to the CPU if not addressed.\n\n# Brief explanation\n# Thermal throttling occurs when the CPU temperature exceeds a certain threshold, causing the CPU to reduce its frequency to cool down. This is a protective mechanism to prevent overheating.\n\n# BASH Command to fix it\n# To address thermal throttling, you can clean the cooling system and ensure proper airflow.\n# Additionally, you can use software tools to monitor and manage CPU temperatures.\n\n# Note: This command will not directly fix the issue but will help in monitoring the CPU temperature.\nwatch -n 1 'sensors | grep \"Package id 0\"'\n\n# Backup Command:\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:28:36",
+        "problem": "AFK: [2026-02-22 15:27:54] ERROR: NVRM: API mismatch: NVIDIA Driver 535 vs Kernel Module 525\n",
+        "ai_diagnosis": "```bash\n# Analyze the error\n# The error indicates that there is a mismatch between the NVIDIA driver version (535) and the kernel module version (525).\n\n# BRIEF explanation\n# The mismatch between the driver and kernel module versions can cause instability and potential crashes. To fix this, the kernel module needs to be updated to match the driver version.\n\n# BASH COMMAND to fix it\nsudo apt-get update && sudo apt-get install --only-upgrade nvidia-driver-535\n\n# Backup Command:\n# If the above command fails or does not work, you can try to manually remove and reinstall the driver.\n**Backup Command:**\n```bash\nsudo apt-get remove --purge nvidia* && sudo reboot\nsudo apt-get install nvidia-driver-535\n```",
+        "proposed_fix": "# Analyze the error\n# The error indicates that there is a mismatch between the NVIDIA driver version (535) and the kernel module version (525).\n\n# BRIEF explanation\n# The mismatch between the driver and kernel module versions can cause instability and potential crashes. To fix this, the kernel module needs to be updated to match the driver version.\n\n# BASH COMMAND to fix it\nsudo apt-get update && sudo apt-get install --only-upgrade nvidia-driver-535\n\n# Backup Command:\n# If the above command fails or does not work, you can try to manually remove and reinstall the driver.\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:41:40",
+        "problem": "AFK: [2026-02-22 15:41:18] ERROR: PostgreSQL Service failed to start (Port 5432 in use)\n",
+        "ai_diagnosis": "```bash\n# Analyzing the error, it appears that the PostgreSQL service is unable to start because port 5432 is already in use by another process.\n\n# BRIEF explanation:\n# The error indicates that port 5432, which is the default port for PostgreSQL, is already being used by another application or service. This prevents PostgreSQL from starting up.\n\n# BASH COMMAND to fix it:\n# To resolve this issue, you can either stop the process currently using port 5432 or configure PostgreSQL to use a different port.\nsudo lsof -i :5432  # Identify the process using port 5432\nsudo kill <PID>     # Replace <PID> with the process ID obtained from the previous command to stop the process\n\n# If stopping the process is not an option, you can change the port for PostgreSQL by editing its configuration file.\n# Edit the PostgreSQL configuration file to change the port number.\nsudo nano /etc/postgresql/<version>/main/postgresql.conf  # Replace <version> with your PostgreSQL version\n# Change the line \"port = 5432\" to \"port = <new_port>\", for example, \"port = 5433\".\n# Restart PostgreSQL service to apply the changes.\nsudo systemctl restart postgresql\n\n# Backup Command:\n**Backup Command:**\n```bash\n# Before making changes, it's always a good practice to backup your PostgreSQL data.\nsudo pg_dumpall -U postgres > all_databases_backup.sql\n```",
+        "proposed_fix": "# Analyzing the error, it appears that the PostgreSQL service is unable to start because port 5432 is already in use by another process.\n\n# BRIEF explanation:\n# The error indicates that port 5432, which is the default port for PostgreSQL, is already being used by another application or service. This prevents PostgreSQL from starting up.\n\n# BASH COMMAND to fix it:\n# To resolve this issue, you can either stop the process currently using port 5432 or configure PostgreSQL to use a different port.\nsudo lsof -i :5432  # Identify the process using port 5432\nsudo kill <PID>     # Replace <PID> with the process ID obtained from the previous command to stop the process\n\n# If stopping the process is not an option, you can change the port for PostgreSQL by editing its configuration file.\n# Edit the PostgreSQL configuration file to change the port number.\nsudo nano /etc/postgresql/<version>/main/postgresql.conf  # Replace <version> with your PostgreSQL version\n# Change the line \"port = 5432\" to \"port = <new_port>\", for example, \"port = 5433\".\n# Restart PostgreSQL service to apply the changes.\nsudo systemctl restart postgresql\n\n# Backup Command:\n**Backup Command:**",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    },
+    {
+        "timestamp": "2026-02-22 15:41:54",
+        "problem": "AFK: [2026-02-22 15:41:26] CRITICAL: Thermal Throttling detected! CPU Temp > 95C\n",
+        "ai_diagnosis": "### Analysis\nThe error indicates that the CPU temperature has exceeded 95\u00b0C, leading to thermal throttling. This is a critical situation as it can potentially cause system instability or hardware damage if not addressed.\n\n### Explanation\nThermal throttling occurs when the CPU's temperature exceeds a safe threshold, causing the system to reduce its performance to cool down. This is a protective mechanism to prevent overheating.\n\n### BASH Command to Fix\nTo address the thermal throttling issue, you can clean the CPU cooler or improve airflow around the CPU. If you don't have physical access to the machine, you can also adjust the thermal management settings to be more aggressive.\n\n```bash\nsudo apt update && sudo apt install lm-sensors -y\nsudo sensors-detect\nsudo apt install thermald -y\nsudo systemctl enable thermald\nsudo systemctl start thermald\n```\n\n### Backup Command\nIf the above commands do not resolve the issue, you can manually adjust the thermal settings by editing the `/etc/default/grub` file.\n\n```bash\nsudo cp /etc/default/grub /etc/default/grub.bak\nsudo sed -i's/GRUB_CMDLINE_LINUX_DEFAULT/GRUB_CMDLINE_LINUX_DEFAULT=\"intel_pstate=disable cpufreq.default_governor=performance\"/' /etc/default/grub\nsudo update-grub\nsudo reboot\n```\n\n**Backup Command:**\n\n```bash\nsudo mv /etc/default/grub.bak /etc/default/grub\nsudo update-grub\nsudo reboot\n```\n\nThese commands will disable the Intel P-state driver and set the CPU frequency governor to performance, which can help manage thermal throttling. However, be cautious as these settings might increase CPU temperature further if not managed properly.",
+        "proposed_fix": "sudo mv /etc/default/grub.bak /etc/default/grub\nsudo update-grub\nsudo reboot",
+        "backup_command": null,
+        "auditor_verdict": "SAFE",
+        "final_status": "AUTO_EXECUTED",
+        "user_feedback": null
+    }
+]
