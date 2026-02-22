@@ -106,7 +106,3 @@ This project was built to explore the intersection of machine learning inference
 ---
 
 *Built with ❤️ for the Hackathon.*
-
-```
-
-```
