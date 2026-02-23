@@ -79,11 +79,20 @@ stacksentinel-ui
 
 *The public Ngrok URL will be printed directly in your terminal so you can open it on your phone.*
 
-**Step 2: Arm the Watchdog**
-When you are ready to authorize the AI to guard your system, open a new terminal and explicitly arm the agent: 
+**Mode A: Autonomous Healing (Recommended)**
+To allow the AI to fix system-level issues while maintaining access to your AWS credentials, use the `-E` flag. This preserves your environment variables so the AI can "think" while having the power to "act."
 
 ```bash
 sudo -E stacksentinel --watchdog
+
+```
+
+**Mode B: Standard/Read-Only Mode**
+If you prefer not to grant root access, you can run the agent as a standard user.
+*Note: The AI will still diagnose errors, but it may fail to execute fixes that require administrative permissions (like restarting services).*
+
+```bash
+stacksentinel --watchdog
 
 ```
 
@@ -134,3 +143,7 @@ This project explores the intersection of AI inference and low-level systems eng
 ---
 
 **License:** MIT
+
+
+
+
