@@ -12,7 +12,7 @@ setup(
         'pyttsx3',
         'pyngrok',
         'distro',
-        'GPUtil'
+        'GPUtil',
     ],
     entry_points={
         'console_scripts': [

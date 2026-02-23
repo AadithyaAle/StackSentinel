@@ -64,7 +64,7 @@ def broadcast_status(status, cpu, ram, last_log):
         pass
 
 # --- WATCHDOG MODE (FULL FEATURED) ---
-def start_watchdog_mode(log_file="system_log.txt"):
+def start_watch_mode(log_file="/tmp/stacksentinel_dummy_log.txt"):
     console.clear()
     console.rule("[bold red]🛡️ StackSentinel WATCHDOG PROTOCOL: ACTIVE[/bold red]")
     console.print(Panel(
@@ -180,8 +180,11 @@ def start_watchdog_mode(log_file="system_log.txt"):
                         
                         # --- THE MAGIC MOMENT: Execution ---
                         try:
-                            subprocess.run(fix, shell=True, check=False)
+                            # Added timeout=15 so the AI can never permanently freeze the watchdog
+                            subprocess.run(fix, shell=True, check=False, timeout=15)
                             console.print(f"[bold cyan]Command Executed: {fix}[/bold cyan]")
+                        except subprocess.TimeoutExpired:
+                            console.print(f"[bold red]Execution Aborted: Command took too long or asked for input.[/bold red]")
                         except Exception as e:
                             console.print(f"[red]Execution failed: {e}[/red]")
                             

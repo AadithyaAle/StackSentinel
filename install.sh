@@ -7,6 +7,9 @@ echo "📦 Setting up Python Virtual Environment..."
 python3 -m venv venv
 source venv/bin/activate
 
+echo "🔊 Installing Linux Audio Dependencies..."
+sudo apt-get update && sudo apt-get install -y espeak alsa-utils
+
 echo "📥 Installing dependencies and native CLI tools..."
 pip install -r requirements.txt
 pip install .

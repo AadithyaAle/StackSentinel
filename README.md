@@ -90,7 +90,7 @@ To safely test the AI's execution capabilities, open a third terminal and inject
 
 ```bash
 cd StackSentinel
-echo "CRITICAL: Backup service failed. Directory /tmp/stacksentinel_test missing." >> system_log.txt
+echo "CRITICAL: Backup service failed." >> /tmp/stacksentinel_dummy_log.txt
 
 ```
 
