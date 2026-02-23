@@ -10,7 +10,9 @@ setup(
         'flask',
         'rich',
         'pyttsx3',
-        'pyngrok'
+        'pyngrok',
+        'distro',
+        'GPUtil'
     ],
     entry_points={
         'console_scripts': [

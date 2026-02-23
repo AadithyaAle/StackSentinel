@@ -1,4 +1,4 @@
-# 1. Python Environment & Build Junk
+# Python Environment & Build Junk
 __pycache__/
 *.py[cod]
 venv/
@@ -6,18 +6,23 @@ build/
 dist/
 *.egg-info/
 
-# 2. StackSentinel Core State Files
+# AWS CLI
+awscliv2.zip
+aws/
+
+# StackSentinel Runtime & State Files
 monitor_status.json
 monitor_status.json.tmp
 lockdown.mode
 system_log.txt
+/tmp/stacksentinel_status.json
+/tmp/stacksentinel_lockdown.mode
 
-# 3. StackSentinel User Data & Secrets (DO NOT LEAK)
+# User Data & Secrets (DO NOT LEAK)
 .env
 *.pem
 history.json
 history.log
 snapshots/
 drift_baseline.json
-profile.jsonawscliv2.zip
-aws/
+profile.json

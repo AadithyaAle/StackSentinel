@@ -14,7 +14,7 @@ def ask_nova(system_context, user_problem, learning_mode=False, user_profile=Non
         session = boto3.Session(profile_name="Stack-Sentinel")
         
         # 2. Force the region to us-east-1 where Nova is hosted
-        client = session.client("bedrock-runtime", region_name="us-east-1")
+        client = boto3.client('bedrock-runtime', region_name='us-east-1')
         
         # 1. Build the System Prompt (Context)
         system_prompt = f"You are StackSentinel, an AI Linux Repair Agent. System Context: {json.dumps(system_context)}"

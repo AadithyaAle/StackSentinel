@@ -4,3 +4,5 @@ flask
 rich
 pyttsx3
 pyngrok
+distro
+GPUtil

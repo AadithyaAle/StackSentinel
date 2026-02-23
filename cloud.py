@@ -23,7 +23,7 @@ def push_to_cloud():
         return 
 
     try:
-        client = boto3.client('logs', region_name='us-east-1')
+        client = boto3.client('bedrock-runtime', region_name='us-east-1')
 
         # 1. Create Log Group if missing
         try:
