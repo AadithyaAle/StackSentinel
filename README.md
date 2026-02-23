@@ -1,8 +1,8 @@
-This is the final touch to make your repository look like a professional, enterprise-grade tool. I have updated the **Installation** and **Usage** sections to reflect your new native CLI commands (`stacksentinel` and `stacksentinel-ui`) and included the `pip install .` step.
+It looks like you pasted the version of the README from right before we created your awesome `install.sh` script!
 
-I also added your dynamic index back at the top so it's easy to navigate!
+To make sure your judges and beta testers get the absolute best experience (and to prevent that "Ghost Log File" error we talked about), we need to combine the dynamic index with the new `install.sh` instructions and the correct testing path.
 
-### 🛡️ Updated `README.md`
+Here is the **absolute final, copy-pasteable `README.md**` that incorporates everything we just built. Just click the "Copy code" button in the top right and overwrite your current README:
 
 # 🛡️ StackSentinel
 
@@ -19,8 +19,7 @@ I also added your dynamic index back at the top so it's easy to navigate!
 3. [Installation & Setup](#-installation--setup)
 4. [Usage Guide](#-usage-guide)
 5. [Advanced CLI Capabilities](#-advanced-cli-capabilities)
-6. [The Autonomous Healing Loop](#-the-autonomous-healing-loop)
-7. [License](#-license)
+6. [License](#-license)
 
 ## 🚀 Overview
 
@@ -37,7 +36,7 @@ Coupled with a mobile-responsive Command and Control (C2) dashboard, admins get 
 
 ## 💻 Installation & Setup
 
-Developed and stress-tested on Ubuntu Linux. 
+Developed and stress-tested on Ubuntu Linux. We provide an automated installation script that sets up the Python virtual environment and installs the StackSentinel global CLI tools.
 
 **1. Clone & Navigate**
 ```bash
@@ -46,24 +45,16 @@ cd StackSentinel
 
 ```
 
-**2. Environment & Dependencies**
+**2. Run the Installer**
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+chmod +x install.sh
+./install.sh
 
 ```
 
-**3. Install Native CLI Commands**
-This step registers `stacksentinel` as a global command on your system.
-
-```bash
-pip install .
-
-```
-
-**4. AWS Authentication**
+**3. AWS Authentication**
+Ensure you are logged into your secure AWS profile:
 
 ```bash
 aws sso login --profile Stack-Sentinel
@@ -72,33 +63,38 @@ aws sso login --profile Stack-Sentinel
 
 ## 🎮 Usage Guide
 
-Thanks to our automated CLI setup, you no longer need to type `python main.py`. You can run these commands from **any** terminal directory.
+Thanks to the automated CLI setup, you can run StackSentinel from **any** terminal directory on your machine. We enforce a "User-Intended" security model, meaning the autonomous agent only runs when you explicitly arm it.
 
 **Step 1: Start the Web Dashboard**
+Open any terminal and run:
 
 ```bash
 stacksentinel-ui
 
 ```
 
-*The public Ngrok URL will be printed directly in your terminal.*
+*The public Ngrok URL will be printed directly in your terminal so you can open it on your phone.*
 
 **Step 2: Arm the Watchdog**
+When you are ready to authorize the AI to guard your system, open a new terminal and explicitly arm the agent:
 
 ```bash
 stacksentinel --watchdog
 
 ```
 
-**Step 3: Test the Healing (Simulation)**
-Inject a missing-directory error into your log:
+**Step 3: Test the Auto-Healing (Simulation)**
+To safely test the AI's execution capabilities, open a third terminal and inject a harmless missing-directory error into the log file:
 
 ```bash
+cd StackSentinel
 echo "CRITICAL: Backup service failed. Directory /tmp/stacksentinel_test missing." >> system_log.txt
 
 ```
 
-## 🧰 Advanced CLI Reference
+Watch your terminal or phone dashboard as the AI intercepts the log, consults Amazon Nova, audits the `mkdir` command for safety, and physically creates the directory on your machine.
+
+## 🧰 Advanced CLI Capabilities
 
 | Command | Description |
 | --- | --- |
@@ -116,3 +112,4 @@ This project explores the intersection of AI inference and low-level systems eng
 ---
 
 **License:** MIT
+
