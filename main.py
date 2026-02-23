@@ -217,7 +217,7 @@ def start_watch_mode(log_file="system_log.txt"):
             time.sleep(0.5)
 
 # --- MAIN EXECUTION ---
-def main():
+def cli_entry_point():
     parser = argparse.ArgumentParser()
     parser.add_argument("problem", type=str, nargs="?", help="Describe your problem")
     parser.add_argument("--image", type=str, default=None)
@@ -311,4 +311,4 @@ def main():
         cloud.push_to_cloud()
 
 if __name__ == "__main__":
-    main()
+    cli_entry_point()

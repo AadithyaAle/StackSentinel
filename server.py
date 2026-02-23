@@ -1,6 +1,7 @@
 from flask import Flask, jsonify, request, render_template_string
 import os
 import json
+from pyngrok import ngrok
 
 app = Flask(__name__)
 
@@ -121,5 +122,13 @@ def unlock():
     except Exception as e:
         return jsonify({"message": f"Error: {e}"})
 
+def start_server():
+    # Start the Ngrok tunnel to the Flask port automatically
+    public_url = ngrok.connect(5000)
+    print(f"\n🌍 [SUCCESS] Public Dashboard Live At: {public_url.public_url}\n")
+    
+    # Run the Flask app
+    app.run(host='0.0.0.0', port=5000, debug=False, use_reloader=False)
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    start_server()

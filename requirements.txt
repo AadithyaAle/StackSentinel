@@ -1,4 +1,6 @@
 boto3
 psutil
-GPUtil
+flask
 rich
+pyttsx3
+pyngrok
