@@ -1,6 +1,10 @@
-Here is the complete `README.md` file in a clean, copy-pasteable block. Just click the "Copy code" button in the top right corner of the block and paste it directly into your new `README.md` file.
+This is the final touch to make your repository look like a professional, enterprise-grade tool. I have updated the **Installation** and **Usage** sections to reflect your new native CLI commands (`stacksentinel` and `stacksentinel-ui`) and included the `pip install .` step.
 
+I also added your dynamic index back at the top so it's easy to navigate!
 
+### 🛡️ Updated `README.md`
+
+```markdown
 # 🛡️ StackSentinel
 
 [![Python 3](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org/)
@@ -10,6 +14,15 @@ Here is the complete `README.md` file in a clean, copy-pasteable block. Just cli
 
 **An Autonomous, Self-Healing Linux Infrastructure Agent powered by Amazon Nova.**
 
+## 📑 Index
+1. [Overview](#-overview)
+2. [Key Features](#-key-features)
+3. [Installation & Setup](#-installation--setup)
+4. [Usage Guide](#-usage-guide)
+5. [Advanced CLI Capabilities](#-advanced-cli-capabilities)
+6. [The Autonomous Healing Loop](#-the-autonomous-healing-loop)
+7. [License](#-license)
+
 ## 🚀 Overview
 
 System administrators cannot monitor terminal outputs 24/7. **StackSentinel** is a lightweight, edge-deployed AI watchdog that actively monitors Linux system logs, diagnoses critical hardware and software faults in real-time, and securely executes autonomous bash commands to heal the system before a total crash occurs. 
@@ -18,42 +31,23 @@ Coupled with a mobile-responsive Command and Control (C2) dashboard, admins get 
 
 ## ✨ Key Features
 
-* **🧠 LLM-Powered Remediation:** Integrates seamlessly with AWS Bedrock (Amazon Nova Lite) to read raw system logs (e.g., `journalctl` outputs, missing directory errors, port conflicts), contextualize the threat, and generate precise bash commands to fix them.
-* **🔒 The Command Auditor (Safe Execution):** LLMs should never have unvetted root access. StackSentinel features a strict safety layer (`audit_command`) that intercepts the AI's generated bash scripts, blocking dangerous commands (like `rm -rf`, `mkfs`) while automatically executing safe administrative fixes.
-* **⚡ Crash-Proof IPC Architecture:** Engineered using atomic JSON file writes and file-based Inter-Process Communication (IPC). The C2 server and Watchdog daemon communicate safely without overloading the Linux D-Bus or crashing desktop environments like GDM3.
-* **📱 Mobile C2 Dashboard:** A sleek Flask web UI that serves live CPU/RAM telemetry, active AI reasoning logs, and a remote "Lockdown" trigger over secure tunnels.
-* **☁️ Enterprise-Grade Security & Sync:** Uses AWS IAM Identity Center (SSO) for zero-hardcoded-credentials authentication, syncing cryptographic audit trails of all AI actions directly to AWS CloudWatch.
-## 🧰 Advanced CLI Capabilities
-
-Beyond the autonomous loop, StackSentinel includes a robust suite of command-line tools for advanced system administration:
-
-* **🛑 The AI "Circuit Breaker":** Features a systemic recurrence checker (`is_system_looping`). If a fix fails and the system enters an infinite error loop, the Watchdog cuts execution and halts the AI to prevent system degradation.
-* **🗣️ Auditory Threat Announcements:** Integrates a local TTS engine to provide audible alerts when lockdowns are triggered or when the agent applies automated fixes.
-* **📸 Snapshots & Rollbacks:** Built-in state management using `--snapshot` and `--restore` flags, allowing admins to instantly revert file states if an experimental configuration fails.
-* **🛡️ Configuration Drift Auditing:** Utilizing the `--set-baseline` and `--audit` commands, the agent can map the current system state and detect unauthorized configuration drift over time.
-* **🎓 Professor & Gym Mode:** Using the `--learn` or `--gym` flags, junior DevOps engineers can enter an interactive training simulator to practice diagnosing real log errors against the AI's reasoning.
-
-## ⚙️ The Autonomous Healing Loop
-
-1. **Detect:** The `main.py` watchdog monitors local log files and system vitals via `psutil`.
-2. **Diagnose:** When a `CRITICAL` or `ERROR` flag is caught, the isolated stack trace is routed to AWS Bedrock.
-3. **Reason:** Amazon Nova explains the error and outputs a targeted shell script.
-4. **Audit:** The internal Python security layer verifies the command against a strict safety matrix.
-5. **Execute:** The script utilizes `subprocess` to autonomously execute the fix on the host machine.
-6. **Report:** The action is logged to the local cryptographic history, broadcasted to the Flask dashboard, and pushed to AWS CloudWatch.
+* **🧠 LLM-Powered Remediation:** Integrates with AWS Bedrock (Amazon Nova) to diagnose raw system logs and generate precise bash fixes.
+* **🔒 Command Auditor:** A strict safety layer that intercepts AI-generated scripts to block dangerous commands like `rm -rf`.
+* **⚡ Crash-Proof IPC:** Engineered with atomic JSON file writes to ensure the Watchdog and C2 server communicate without system lag.
+* **🌐 Auto-Tunneling C2:** Integrated `pyngrok` support that automatically generates a public URL for your dashboard on startup.
 
 ## 💻 Installation & Setup
 
-Developed and stress-tested on an Ubuntu Linux dual-boot environment. 
+Developed and stress-tested on Ubuntu Linux. 
 
-**1. Clone the repository**
+**1. Clone & Navigate**
 ```bash
 git clone [https://github.com/YOUR_USERNAME/StackSentinel.git](https://github.com/YOUR_USERNAME/StackSentinel.git)
 cd StackSentinel
 
 ```
 
-**2. Set up the virtual environment**
+**2. Environment & Dependencies**
 
 ```bash
 python3 -m venv venv
@@ -62,8 +56,15 @@ pip install -r requirements.txt
 
 ```
 
-**3. Authenticate with AWS (SSO)**
-StackSentinel uses secure credential management. Ensure you are logged into your AWS profile:
+**3. Install Native CLI Commands**
+This step registers `stacksentinel` as a global command on your system.
+
+```bash
+pip install .
+
+```
+
+**4. AWS Authentication**
 
 ```bash
 aws sso login --profile Stack-Sentinel
@@ -72,37 +73,49 @@ aws sso login --profile Stack-Sentinel
 
 ## 🎮 Usage Guide
 
-To launch the full autonomous orchestration suite, you need to spin up the web interface and the background daemon.
+Thanks to our automated CLI setup, you no longer need to type `python main.py`. You can run these commands from **any** terminal directory.
 
-**Terminal 1: Start the C2 Dashboard**
+**Step 1: Start the Web Dashboard**
 
 ```bash
-python server.py
+stacksentinel-ui
 
 ```
 
-*(Optional: Use `ngrok http 5000` to expose the dashboard to your mobile device).*
+*The public Ngrok URL will be printed directly in your terminal.*
 
-**Terminal 2: Arm the Watchdog**
+**Step 2: Arm the Watchdog**
 
 ```bash
-python main.py --watchdog
+stacksentinel --watchdog
 
 ```
 
-To test the auto-healing capabilities safely, inject a harmless missing-directory error into the log file from a third terminal:
+**Step 3: Test the Healing (Simulation)**
+Inject a missing-directory error into your log:
 
 ```bash
-echo "CRITICAL: Backup service failed. The directory /tmp/stacksentinel_backup does not exist." >> system_log.txt
+echo "CRITICAL: Backup service failed. Directory /tmp/stacksentinel_test missing." >> system_log.txt
 
 ```
 
-Watch the daemon consult the LLM, audit the `mkdir` command, and physically create the directory on your machine.
+## 🧰 Advanced CLI Reference
 
-## 🤝 Open Source & Research Context
+| Command | Description |
+| --- | --- |
+| `stacksentinel --gym` | Enter the interactive threat-response training simulator. |
+| `stacksentinel --learn "error"` | Professor Mode: Explains Linux concepts before showing the fix. |
+| `stacksentinel --snapshot` | Create an instant backup of the current system state. |
+| `stacksentinel --restore` | Open the interactive menu to roll back to a previous state. |
+| `stacksentinel --history` | View a color-coded audit trail of every AI action taken. |
+| `stacksentinel --audit` | Check for configuration drift against your set baseline. |
 
-This project was built to explore the intersection of machine learning inference and low-level Linux system administration. It demonstrates practical orchestration of LLMs for real-world DevOps tasks, emphasizing rigorous safety constraints and robust systems engineering. Contributions and forks are welcome!
+## 🤝 Open Source
+
+This project explores the intersection of AI inference and low-level systems engineering. Built for the Hackathon with ❤️.
 
 ---
 
-*Built with ❤️ for the Hackathon.*
+**License:** MIT
+
+```
