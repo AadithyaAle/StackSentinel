@@ -60,11 +60,13 @@ def broadcast_status(status, cpu, ram, last_log):
             f.flush()
             os.fsync(f.fileno())
         os.replace(temp_path, STATUS_FILE)
+        os.chmod(STATUS_FILE, 0o666)
     except Exception:
         pass
 
 # --- WATCHDOG MODE (FULL FEATURED) ---
-def start_watch_mode(log_file="/tmp/stacksentinel_dummy_log.txt"):
+# Change line 67 to this:
+def start_watchdog_mode(log_file="/tmp/stacksentinel_dummy_log.txt"):
     console.clear()
     console.rule("[bold red]🛡️ StackSentinel WATCHDOG PROTOCOL: ACTIVE[/bold red]")
     console.print(Panel(
@@ -258,7 +260,6 @@ def cli_entry_point():
         return
 
     if args.watchdog: start_watchdog_mode(); return
-    if args.watch: start_watch_mode(); return
     if args.report: console.print(history.generate_report()); return
     if args.teach: history.enter_teach_mode(); return
     if args.gym: gym.start_gym(); return
@@ -301,9 +302,23 @@ def cli_entry_point():
             if Confirm.ask("Run this plan?"):
                 if cmds.get('backup'): console.print("[blue]Backing up...[/blue]")
                 # Direct Terminal Execution Logic
-                subprocess.run(cmds['fix'], shell=True, check=False)
-                console.print("[green]Executed.[/green]")
-                status = "EXECUTED"
+                fix_command = cmds['fix']
+                dangerous_keywords = ["rm -rf", "mkfs", "dd ", "reboot", "shutdown", "chmod 777", "mkswap"]
+                
+                if any(bad_word in fix_command for bad_word in dangerous_keywords):
+                    console.print(f"[bold red]SECURITY ALERT: AI attempted to run a destructive command:[/bold red] {fix_command}")
+                    console.print("[bold red]Execution BLOCKED to protect the kernel.[/bold red]")
+                    status = "BLOCKED_BY_SAFETY_NET"
+                else:
+                    # Added a 15-second timeout so the AI can't freeze your terminal forever
+                    try:
+                        subprocess.run(fix_command, shell=True, check=False, timeout=15)
+                        console.print("[green]Executed.[/green]")
+                        status = "EXECUTED"
+                    except subprocess.TimeoutExpired:
+                        console.print("[bold red]Execution Aborted: Command took too long or asked for input.[/bold red]")
+                        status = "TIMEOUT"
+
             else: status = "SKIPPED"
         else:
             console.print(Panel(f"[bold red]BLOCKED[/bold red] {audit}", border_style="red"))
@@ -314,4 +329,17 @@ def cli_entry_point():
         cloud.push_to_cloud()
 
 if __name__ == "__main__":
-    cli_entry_point()
+    try:
+        # This is the crucial line that actually starts the app!
+        cli_entry_point()
+        
+    except KeyboardInterrupt:
+        # This catches the Ctrl+C button press!
+        print("\n🛑 StackSentinel Watchdog disarmed. Shutting down gracefully...")
+        
+        # Clean up the status file so the UI knows we are offline
+
+        if os.path.exists("/tmp/stacksentinel_status.json"):
+            os.remove("/tmp/stacksentinel_status.json")
+            
+        sys.exit(0)
