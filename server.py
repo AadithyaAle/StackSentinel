@@ -5,8 +5,8 @@ from pyngrok import ngrok
 
 app = Flask(__name__)
 
-STATUS_FILE = "monitor_status.json"
-LOCKDOWN_FILE = "lockdown.mode"
+STATUS_FILE = "/tmp/stacksentinel_status.json"
+LOCKDOWN_FILE = "/tmp/stacksentinel_lockdown.mode"
 
 HTML_TEMPLATE = """
 <!DOCTYPE html>

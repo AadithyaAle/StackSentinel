@@ -29,8 +29,8 @@ import notifier
 import voice
 
 console = Console()
-STATUS_FILE = "monitor_status.json"
-LOCKDOWN_FILE = "lockdown.mode"
+STATUS_FILE = "/tmp/stacksentinel_status.json"
+LOCKDOWN_FILE = "/tmp/stacksentinel_lockdown.mode"
 
 # --- HELPER FUNCTIONS ---
 def extract_commands(text):

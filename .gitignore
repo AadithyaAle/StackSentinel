@@ -1,13 +1,22 @@
-venv/
+# 1. Python Environment & Build Junk
 __pycache__/
-*.png
+*.py[cod]
 venv/
-__pycache__/
-*.pyc
-.env
+build/
+dist/
+*.egg-info/
+
+# 2. StackSentinel Core State Files
 monitor_status.json
-*.tmp
+monitor_status.json.tmp
 lockdown.mode
 system_log.txt
-aws/
-*.zip
+
+# 3. StackSentinel User Data & Secrets (DO NOT LEAK)
+.env
+*.pem
+history.json
+history.log
+snapshots/
+drift_baseline.json
+profile.json

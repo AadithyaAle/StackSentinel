@@ -35,7 +35,7 @@ Developed and stress-tested on Ubuntu Linux. We provide an automated installatio
 
 **1. Clone & Navigate**
 ```bash
-git clone [https://github.com/YOUR_USERNAME/StackSentinel.git](https://github.com/YOUR_USERNAME/StackSentinel.git)
+git clone [https://github.com/AadithyaAle/StackSentinel.git](https://github.com/AadithyaAle/StackSentinel.git)
 cd StackSentinel
 
 ```
@@ -54,6 +54,13 @@ Ensure you are logged into your secure AWS profile:
 ```bash
 aws sso login --profile Stack-Sentinel
 
+```
+
+**4. Ngrok Authentication (For the Web UI)**
+To use the automated public dashboard tunnel, you must link your free Ngrok account:
+```bash
+# In your terminal, run:
+ngrok config add-authtoken YOUR_NGROK_TOKEN
 ```
 
 ## 🎮 Usage Guide
