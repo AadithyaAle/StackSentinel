@@ -1,9 +1,12 @@
 #!/bin/bash
 
-echo "🗑️ Removing StackSentinel daemon..."
-sudo systemctl stop stacksentinel
-sudo systemctl disable stacksentinel
-sudo rm /etc/systemd/system/stacksentinel.service
-sudo systemctl daemon-reload
+echo "🗑️ Uninstalling StackSentinel..."
 
-echo "✅ StackSentinel has been safely uninstalled from systemd."
+# Remove the global symlinks
+sudo rm -f /usr/local/bin/stacksentinel
+sudo rm -f /usr/local/bin/stacksentinel-ui
+
+# Remove the virtual environment
+rm -rf venv
+
+echo "✅ Virtual environment and global CLI links safely removed."

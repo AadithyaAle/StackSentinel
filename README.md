@@ -12,8 +12,9 @@
 2. [Key Features](#-key-features)
 3. [Installation & Setup](#-installation--setup)
 4. [Usage Guide](#-usage-guide)
-5. [Advanced CLI Capabilities](#-advanced-cli-capabilities)
-6. [License](#-license)
+5. [Full CLI Command Reference](#-full-cli-command-reference)
+6. [Teardown & Uninstallation](#-teardown--uninstallation)
+7. [License](#-license)
 
 ## 🚀 Overview
 
@@ -42,7 +43,7 @@ cd StackSentinel
 **2. Run the Installer**
 
 ```bash
-chmod +x install.sh
+chmod +x install.sh uninstall.sh
 ./install.sh
 
 ```
@@ -90,10 +91,10 @@ Watch your terminal or phone dashboard as the AI intercepts the log, consults Am
 
 ## 🧰 Full CLI Command Reference
 
-StackSentinel is highly modular. You can use it as a background daemon, a passive monitor, or an interactive educational tool.
+StackSentinel is highly modular. You can use it as a passive monitor, an active guardian, or an interactive educational tool.
 
 | Command | Description |
-| :--- | :--- |
+| --- | --- |
 | `stacksentinel "error message"` | **Standard Mode:** Manually ask the AI to diagnose a specific error. |
 | `stacksentinel --watchdog` | **Active Defense:** Runs the continuous AFK protection and auto-healing loop. |
 | `stacksentinel --watch` | **Passive Defense:** Monitors and displays logs continuously without executing fixes. |
@@ -104,8 +105,17 @@ StackSentinel is highly modular. You can use it as a background daemon, a passiv
 | `stacksentinel --history` | **Audit Trail:** View a color-coded log of every command the AI has executed. |
 | `stacksentinel --snapshot` | **Backups:** Create an instant JSON state backup of the system. |
 | `stacksentinel --restore` | **Rollback:** Open the interactive menu to revert to a previous snapshot. |
-| `stacksentinel --set-baseline`| **Security:** Set a known-good configuration baseline for the OS. |
+| `stacksentinel --set-baseline` | **Security:** Set a known-good configuration baseline for the OS. |
 | `stacksentinel --audit` | **Security:** Check for unauthorized configuration drift against the baseline. |
+
+## 🗑️ Teardown & Uninstallation
+
+To completely remove the StackSentinel CLI tools and isolated virtual environment from your system, simply run the included uninstaller:
+
+```bash
+./uninstall.sh
+
+```
 
 ## 🤝 Open Source
 
@@ -114,4 +124,3 @@ This project explores the intersection of AI inference and low-level systems eng
 ---
 
 **License:** MIT
-
