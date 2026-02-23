@@ -1,9 +1,3 @@
-It looks like you pasted the version of the README from right before we created your awesome `install.sh` script!
-
-To make sure your judges and beta testers get the absolute best experience (and to prevent that "Ghost Log File" error we talked about), we need to combine the dynamic index with the new `install.sh` instructions and the correct testing path.
-
-Here is the **absolute final, copy-pasteable `README.md**` that incorporates everything we just built. Just click the "Copy code" button in the top right and overwrite your current README:
-
 # 🛡️ StackSentinel
 
 [![Python 3](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org/)
