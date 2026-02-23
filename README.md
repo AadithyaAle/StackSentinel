@@ -88,16 +88,24 @@ echo "CRITICAL: Backup service failed. Directory /tmp/stacksentinel_test missing
 
 Watch your terminal or phone dashboard as the AI intercepts the log, consults Amazon Nova, audits the `mkdir` command for safety, and physically creates the directory on your machine.
 
-## 🧰 Advanced CLI Capabilities
+## 🧰 Full CLI Command Reference
+
+StackSentinel is highly modular. You can use it as a background daemon, a passive monitor, or an interactive educational tool.
 
 | Command | Description |
-| --- | --- |
-| `stacksentinel --gym` | Enter the interactive threat-response training simulator. |
-| `stacksentinel --learn "error"` | Professor Mode: Explains Linux concepts before showing the fix. |
-| `stacksentinel --snapshot` | Create an instant backup of the current system state. |
-| `stacksentinel --restore` | Open the interactive menu to roll back to a previous state. |
-| `stacksentinel --history` | View a color-coded audit trail of every AI action taken. |
-| `stacksentinel --audit` | Check for configuration drift against your set baseline. |
+| :--- | :--- |
+| `stacksentinel "error message"` | **Standard Mode:** Manually ask the AI to diagnose a specific error. |
+| `stacksentinel --watchdog` | **Active Defense:** Runs the continuous AFK protection and auto-healing loop. |
+| `stacksentinel --watch` | **Passive Defense:** Monitors and displays logs continuously without executing fixes. |
+| `stacksentinel --gym` | **Training:** Enter the interactive threat-response training simulator. |
+| `stacksentinel --learn "error"` | **Professor Mode:** Explains Linux concepts before showing the fix. |
+| `stacksentinel --teach` | **Feedback:** Provide manual corrections to the AI to improve future responses. |
+| `stacksentinel --report` | **Analytics:** View the AI's success/failure performance score. |
+| `stacksentinel --history` | **Audit Trail:** View a color-coded log of every command the AI has executed. |
+| `stacksentinel --snapshot` | **Backups:** Create an instant JSON state backup of the system. |
+| `stacksentinel --restore` | **Rollback:** Open the interactive menu to revert to a previous snapshot. |
+| `stacksentinel --set-baseline`| **Security:** Set a known-good configuration baseline for the OS. |
+| `stacksentinel --audit` | **Security:** Check for unauthorized configuration drift against the baseline. |
 
 ## 🤝 Open Source
 
