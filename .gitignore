@@ -19,4 +19,5 @@ history.json
 history.log
 snapshots/
 drift_baseline.json
-profile.json
+profile.jsonawscliv2.zip
+aws/
