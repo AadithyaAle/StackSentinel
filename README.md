@@ -4,7 +4,6 @@ I also added your dynamic index back at the top so it's easy to navigate!
 
 ### 🛡️ Updated `README.md`
 
-```markdown
 # 🛡️ StackSentinel
 
 [![Python 3](https://img.shields.io/badge/Python-3-blue.svg)](https://www.python.org/)
@@ -117,5 +116,3 @@ This project explores the intersection of AI inference and low-level systems eng
 ---
 
 **License:** MIT
-
-```
