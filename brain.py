@@ -42,7 +42,7 @@ def ask_nova(system_context, user_problem, learning_mode=False, user_profile=Non
         # 3. Invoke the Converse API
         # Using Nova Lite for the best balance of speed and reasoning
         response = client.converse(
-            modelId="amazon.nova-lite-v1:0", 
+            modelId="amazon.nova-2-lite-v1:0", 
             messages=messages,
             system=system_instruction,
             inferenceConfig={
