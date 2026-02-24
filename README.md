@@ -4,13 +4,14 @@
 
 ## 📑 Index
 
-1. [Overview](https://www.google.com/search?q=%23-overview)
-2. [Key Features](https://www.google.com/search?q=%23-key-features)
-3. [Installation & Setup](https://www.google.com/search?q=%23-installation--setup)
-4. [Usage Guide](https://www.google.com/search?q=%23-usage-guide)
-5. [Full CLI Command Reference](https://www.google.com/search?q=%23-full-cli-command-reference)
-6. [Teardown & Uninstallation](https://www.google.com/search?q=%23-teardown--uninstallation)
-7. [License](https://www.google.com/search?q=%23-license)
+1. [Overview](https://www.google.com/search?q=%23overview)
+2. [Key Features](https://www.google.com/search?q=%23key-features)
+3. [Prerequisites](https://www.google.com/search?q=%23prerequisites)
+4. [Installation & Setup](https://www.google.com/search?q=%23installation--setup)
+5. [Usage Guide](https://www.google.com/search?q=%23usage-guide)
+6. [Full CLI Command Reference](https://www.google.com/search?q=%23full-cli-command-reference)
+7. [Teardown & Uninstallation](https://www.google.com/search?q=%23teardown--uninstallation)
+8. [License](https://www.google.com/search?q=%23license)
 
 ## 🚀 Overview
 
@@ -26,9 +27,17 @@ Coupled with a mobile-responsive Command and Control (C2) dashboard, admins get 
 * **⚡ Crash-Proof IPC:** Engineered with atomic JSON file writes and global `0o666` permissions to ensure seamless communication between the Root Watchdog and the User-level C2 Dashboard.
 * **🌐 Auto-Tunneling C2:** Integrated `pyngrok` support that automatically generates a public URL for your dashboard on startup.
 
+## ⚠️ Prerequisites
+
+To run StackSentinel locally, you must have:
+
+1. A Linux/macOS environment (Windows requires WSL).
+2. An active AWS Account with access to the **Amazon Nova 2 Lite** model in Bedrock.
+3. AWS CLI configured with your SSO or IAM credentials (`aws configure sso`).
+
 ## 💻 Installation & Setup
 
-Developed and stress-tested on Ubuntu Linux. We provide an automated installation script that sets up the Python virtual environment and installs the StackSentinel global CLI tools.
+Developed and stress-tested on Ubuntu Linux. We provide an automated installation script that securely sets up the Python virtual environment to protect your system packages and installs the StackSentinel CLI tools.
 
 **1. Clone & Navigate**
 
@@ -64,51 +73,44 @@ ngrok config add-authtoken YOUR_NGROK_TOKEN
 
 ## 🎮 Usage Guide
 
-Thanks to the automated CLI setup, you can run StackSentinel from **any** terminal directory on your machine.
-
 > [!IMPORTANT]
-> **Environment Preservation:** To allow the AI to fix system-level issues while maintaining access to your AWS credentials, you must use the `-E` flag with `sudo`.
+> **Virtual Environment Isolation:** Because StackSentinel installs into a safe virtual environment to protect your system, you **must activate it** before running the global commands.
 
-**Step 1: Start the Web Dashboard**
-Open any terminal and run:
+**Step 1: Activate the Environment & Start the Web Dashboard**
+Open your terminal, navigate to the StackSentinel directory, and run:
 
 ```bash
+source venv/bin/activate
 stacksentinel-ui
 
 ```
 
 *The public Ngrok URL will be printed directly in your terminal so you can open it on your phone.*
 
-**Mode A: Autonomous Healing (Recommended)**
-To allow the AI to fix system-level issues while maintaining access to your AWS credentials, use the `-E` flag. This preserves your environment variables so the AI can "think" while having the power to "act."
+**Step 2: Arm the Watchdog**
+Open a second terminal window, activate the environment again, and start the agent.
+
+*Note: To allow the AI to fix system-level issues while maintaining access to your AWS credentials, you must use the `-E` flag with `sudo`. This preserves your environment variables so the AI can "think" while having the power to "act."*
 
 ```bash
+source venv/bin/activate
 sudo -E stacksentinel --watchdog
 
 ```
 
-**Mode B: Standard/Read-Only Mode**
-If you prefer not to grant root access, you can run the agent as a standard user.
-*Note: The AI will still diagnose errors, but it may fail to execute fixes that require administrative permissions (like restarting services).*
-
-```bash
-stacksentinel --watchdog
-
-```
-
 **Step 3: Test the Auto-Healing (Simulation)**
-To safely test the AI's execution capabilities, open a third terminal and inject a harmless missing-directory error into the log file: 
+To safely test the AI's execution capabilities, open a third terminal and inject a harmless missing-directory error into the log file:
 
 ```bash
-echo "CRITICAL: Backup service failed." >> /tmp/stacksentinel_dummy_log.txt
+echo "CRITICAL: Nginx failed to start. The required cache directory /tmp/stacksentinel_cache does not exist." >> /tmp/stacksentinel_dummy_log.txt
 
 ```
 
-Watch your terminal or phone dashboard as the AI intercepts the log, consults Amazon Nova, audits the `mkdir` command for safety, and physically creates the directory on your machine. 
+Watch your terminal or phone dashboard as the AI intercepts the log, consults Amazon Nova, audits the `mkdir` command for safety, and physically creates the directory on your machine.
 
 ## 🧰 Full CLI Command Reference
 
-StackSentinel is highly modular. You can use it as a passive monitor, an active guardian, or an interactive educational tool. 
+StackSentinel is highly modular. You can use it as a passive monitor, an active guardian, or an interactive educational tool.
 
 | Command | Description |
 | --- | --- |
@@ -127,23 +129,19 @@ StackSentinel is highly modular. You can use it as a passive monitor, an active 
 
 ## 🗑️ Teardown & Uninstallation
 
-To completely remove the StackSentinel CLI tools and isolated virtual environment from your system, simply run the included uninstaller: 
+To completely remove the StackSentinel CLI tools and isolated virtual environment from your system, simply run the included uninstaller:
 
 ```bash
 ./uninstall.sh
 
 ```
 
- ## 🤝 Open Source
-
+## 🤝 Open Source
 
 This project explores the intersection of AI inference and low-level systems engineering.
-
 
 ---
 
 **License:** MIT
 
-
-
-
+---
